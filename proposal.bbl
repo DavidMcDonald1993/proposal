@@ -1,0 +1,290 @@
+\begin{thebibliography}{10}
+
+\bibitem{barabasi2009scale}
+Albert-L{\'a}szl{\'o} Barab{\'a}si.
+\newblock Scale-free networks: a decade and beyond.
+\newblock {\em science}, 325(5939):412--413, 2009.
+
+\bibitem{watts1998collective}
+Duncan~J Watts and Steven~H Strogatz.
+\newblock Collective dynamics of ‘small-world’networks.
+\newblock {\em nature}, 393(6684):440--442, 1998.
+
+\bibitem{palla2005uncovering}
+Gergely Palla, Imre Der{\'e}nyi, Ill{\'e}s Farkas, and Tam{\'a}s Vicsek.
+\newblock Uncovering the overlapping community structure of complex networks in
+  nature and society.
+\newblock {\em Nature}, 435(7043):814--818, 2005.
+
+\bibitem{lancichinetti2009detecting}
+Andrea Lancichinetti, Santo Fortunato, and J{\'a}nos Kert{\'e}sz.
+\newblock Detecting the overlapping and hierarchical community structure in
+  complex networks.
+\newblock {\em New Journal of Physics}, 11(3):033015, 2009.
+
+\bibitem{girvan2002community}
+Michelle Girvan and Mark~EJ Newman.
+\newblock Community structure in social and biological networks.
+\newblock {\em Proceedings of the national academy of sciences},
+  99(12):7821--7826, 2002.
+
+\bibitem{fortunato2007resolution}
+Santo Fortunato and Marc Barthelemy.
+\newblock Resolution limit in community detection.
+\newblock {\em Proceedings of the National Academy of Sciences}, 104(1):36--41,
+  2007.
+
+\bibitem{kernighan1970efficient}
+Brian~W Kernighan and Shen Lin.
+\newblock An efficient heuristic procedure for partitioning graphs.
+\newblock {\em Bell system technical journal}, 49(2):291--307, 1970.
+
+\bibitem{wei1991ratio}
+Y-C Wei and C-K Cheng.
+\newblock Ratio cut partitioning for hierarchical designs.
+\newblock {\em IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}, 10(7):911--921, 1991.
+
+\bibitem{shi2000normalized}
+Jianbo Shi and Jitendra Malik.
+\newblock Normalized cuts and image segmentation.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  22(8):888--905, 2000.
+
+\bibitem{ding2001min}
+Chris~HQ Ding, Xiaofeng He, Hongyuan Zha, Ming Gu, and Horst~D Simon.
+\newblock A min-max cut algorithm for graph partitioning and data clustering.
+\newblock In {\em Data Mining, 2001. ICDM 2001, Proceedings IEEE International
+  Conference on}, pages 107--114. IEEE, 2001.
+
+\bibitem{barber2007modularity}
+Michael~J Barber.
+\newblock Modularity and community detection in bipartite networks.
+\newblock {\em Physical Review E}, 76(6):066102, 2007.
+
+\bibitem{andersen2006local}
+Reid Andersen, Fan Chung, and Kevin Lang.
+\newblock Local graph partitioning using pagerank vectors.
+\newblock In {\em 2006 47th Annual IEEE Symposium on Foundations of Computer
+  Science (FOCS'06)}, pages 475--486. IEEE, 2006.
+
+\bibitem{lancichinetti2009community}
+Andrea Lancichinetti and Santo Fortunato.
+\newblock Community detection algorithms: a comparative analysis.
+\newblock {\em Physical review E}, 80(5):056117, 2009.
+
+\bibitem{donath1973lower}
+William~E Donath and Alan~J Hoffman.
+\newblock Lower bounds for the partitioning of graphs.
+\newblock {\em IBM Journal of Research and Development}, 17(5):420--425, 1973.
+
+\bibitem{ng2002spectral}
+Andrew~Y Ng, Michael~I Jordan, Yair Weiss, et~al.
+\newblock On spectral clustering: Analysis and an algorithm.
+\newblock {\em Advances in neural information processing systems}, 2:849--856,
+  2002.
+
+\bibitem{ding2004tutorial}
+Chris Ding.
+\newblock A tutorial on spectral clustering.
+\newblock In {\em Talk presented at ICML.}, 2004.
+
+\bibitem{von2007tutorial}
+Ulrike Von~Luxburg.
+\newblock A tutorial on spectral clustering.
+\newblock {\em Statistics and computing}, 17(4):395--416, 2007.
+
+\bibitem{van2001graph}
+Stijn~Marinus Van~Dongen.
+\newblock {\em Graph clustering by flow simulation}.
+\newblock PhD thesis, 2001.
+
+\bibitem{radicchi2004defining}
+Filippo Radicchi, Claudio Castellano, Federico Cecconi, Vittorio Loreto, and
+  Domenico Parisi.
+\newblock Defining and identifying communities in networks.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 101(9):2658--2663, 2004.
+
+\bibitem{clauset2004finding}
+Aaron Clauset, Mark~EJ Newman, and Cristopher Moore.
+\newblock Finding community structure in very large networks.
+\newblock {\em Physical review E}, 70(6):066111, 2004.
+
+\bibitem{blondel2008fast}
+Vincent~D Blondel, Jean-Loup Guillaume, Renaud Lambiotte, and Etienne Lefebvre.
+\newblock Fast unfolding of communities in large networks.
+\newblock {\em Journal of statistical mechanics: theory and experiment},
+  2008(10):P10008, 2008.
+
+\bibitem{defferrard2016convolutional}
+Micha{\"e}l Defferrard, Xavier Bresson, and Pierre Vandergheynst.
+\newblock Convolutional neural networks on graphs with fast localized spectral
+  filtering.
+\newblock {\em arXiv preprint arXiv:1606.09375}, 2016.
+
+\bibitem{kipf2016semi}
+Thomas~N Kipf and Max Welling.
+\newblock Semi-supervised classification with graph convolutional networks.
+\newblock {\em arXiv preprint arXiv:1609.02907}, 2016.
+
+\bibitem{pons2011post}
+Pascal Pons and Matthieu Latapy.
+\newblock Post-processing hierarchical community structures: Quality
+  improvements and multi-scale view.
+\newblock {\em Theoretical Computer Science}, 412(8):892--900, 2011.
+
+\bibitem{psorakis2011overlapping}
+Ioannis Psorakis, Stephen Roberts, Mark Ebden, and Ben Sheldon.
+\newblock Overlapping community detection using bayesian non-negative matrix
+  factorization.
+\newblock {\em Physical Review E}, 83(6):066114, 2011.
+
+\bibitem{mitra2013integrative}
+Koyel Mitra, Anne-Ruxandra Carvunis, Sanath~Kumar Ramesh, and Trey Ideker.
+\newblock Integrative approaches for finding modular structure in biological
+  networks.
+\newblock {\em Nature reviews. Genetics}, 14(10):719, 2013.
+
+\bibitem{ideker2002discovering}
+Trey Ideker, Owen Ozier, Benno Schwikowski, and Andrew~F Siegel.
+\newblock Discovering regulatory and signalling circuits in molecular
+  interaction networks.
+\newblock {\em Bioinformatics}, 18(suppl\_1):S233--S240, 2002.
+
+\bibitem{Klammer2010}
+Martin Klammer, Klaus Godl, Andreas Tebbe, and Christoph Schaab.
+\newblock Identifying differentially regulated subnetworks from
+  phosphoproteomic data.
+\newblock {\em BMC Bioinformatics}, 11(1):351, Jun 2010.
+
+\bibitem{nacu2007gene}
+{\c{S}}erban Nacu, Rebecca Critchley-Thorne, Peter Lee, and Susan Holmes.
+\newblock Gene expression network analysis and applications to immunology.
+\newblock {\em Bioinformatics}, 23(7):850--858, 2007.
+
+\bibitem{vandin2011algorithms}
+Fabio Vandin, Eli Upfal, and Benjamin~J Raphael.
+\newblock Algorithms for detecting significantly mutated pathways in cancer.
+\newblock {\em Journal of Computational Biology}, 18(3):507--522, 2011.
+
+\bibitem{li2017active}
+Dong Li, Zhisong Pan, Guyu Hu, Zexuan Zhu, and Shan He.
+\newblock Active module identification in intracellular networks using a
+  memetic algorithm with a new binary decoding scheme.
+\newblock {\em BMC genomics}, 18(2):209, 2017.
+
+\bibitem{chen2017prior}
+Weiqi Chen, Jing Liu, and Shan He.
+\newblock Prior knowledge guided active modules identification: an integrated
+  multi-objective approach.
+\newblock {\em BMC systems biology}, 11(2):8, 2017.
+
+\bibitem{he2016cooperative}
+Shan He, Guanbo Jia, Zexuan Zhu, Daniel~A Tennant, Qiang Huang, Ke~Tang, Jing
+  Liu, Mirco Musolesi, John~K Heath, and Xin Yao.
+\newblock Cooperative co-evolutionary module identification with application to
+  cancer disease module discovery.
+\newblock {\em IEEE Transactions on Evolutionary Computation}, 20(6):874--891,
+  2016.
+
+\bibitem{dittrich2008identifying}
+Marcus~T Dittrich, Gunnar~W Klau, Andreas Rosenwald, Thomas Dandekar, and
+  Tobias M{\"u}ller.
+\newblock Identifying functional modules in protein--protein interaction
+  networks: an integrated exact approach.
+\newblock {\em Bioinformatics}, 24(13):i223--i231, 2008.
+
+\bibitem{tenenbaum2000global}
+Joshua~B Tenenbaum, Vin De~Silva, and John~C Langford.
+\newblock A global geometric framework for nonlinear dimensionality reduction.
+\newblock {\em science}, 290(5500):2319--2323, 2000.
+
+\bibitem{belkin2002laplacian}
+Mikhail Belkin and Partha Niyogi.
+\newblock Laplacian eigenmaps and spectral techniques for embedding and
+  clustering.
+\newblock In {\em Advances in neural information processing systems}, pages
+  585--591, 2002.
+
+\bibitem{mikolov2013distributed}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Advances in neural information processing systems}, pages
+  3111--3119, 2013.
+
+\bibitem{mikolov2013efficient}
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock Efficient estimation of word representations in vector space.
+\newblock {\em arXiv preprint arXiv:1301.3781}, 2013.
+
+\bibitem{tang2015line}
+Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, and Qiaozhu Mei.
+\newblock Line: Large-scale information network embedding.
+\newblock In {\em Proceedings of the 24th International Conference on World
+  Wide Web}, pages 1067--1077. International World Wide Web Conferences
+  Steering Committee, 2015.
+
+\bibitem{perozzi2014deepwalk}
+Bryan Perozzi, Rami Al-Rfou, and Steven Skiena.
+\newblock Deepwalk: Online learning of social representations.
+\newblock In {\em Proceedings of the 20th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 701--710. ACM, 2014.
+
+\bibitem{grover2016node2vec}
+Aditya Grover and Jure Leskovec.
+\newblock node2vec: Scalable feature learning for networks.
+\newblock In {\em Proceedings of the 22nd ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 855--864. ACM, 2016.
+
+\bibitem{krioukov2009curvature}
+Dmitri Krioukov, Fragkiskos Papadopoulos, Amin Vahdat, and Mari{\'a}n
+  Bogu{\~n}{\'a}.
+\newblock Curvature and temperature of complex networks.
+\newblock {\em Physical Review E}, 80(3):035101, 2009.
+
+\bibitem{krioukov2010hyperbolic}
+Dmitri Krioukov, Fragkiskos Papadopoulos, Maksim Kitsak, Amin Vahdat, and
+  Mari{\'a}n Bogun{\'a}.
+\newblock Hyperbolic geometry of complex networks.
+\newblock {\em Physical Review E}, 82(3):036106, 2010.
+
+\bibitem{papadopoulos2010greedy}
+Fragkiskos Papadopoulos, Dmitri Krioukov, Mari{\'a}n Bogu{\~n}{\'a}, and Amin
+  Vahdat.
+\newblock Greedy forwarding in dynamic scale-free networks embedded in
+  hyperbolic metric spaces.
+\newblock In {\em INFOCOM, 2010 Proceedings IEEE}, pages 1--9. IEEE, 2010.
+
+\bibitem{papadopoulos2011popularity}
+Fragkiskos Papadopoulos, Maksim Kitsak, M~Serrano, Mari{\'a}n Bogun{\'a}, and
+  Dmitri Krioukov.
+\newblock Popularity versus similarity in growing networks.
+\newblock {\em arXiv preprint arXiv:1106.0286}, 2011.
+
+\bibitem{alanis2016efficient}
+Gregorio Alanis-Lobato, Pablo Mier, and Miguel~A Andrade-Navarro.
+\newblock Efficient embedding of complex networks to hyperbolic space via their
+  laplacian.
+\newblock {\em Scientific Reports}, 6, 2016.
+
+\bibitem{papadopoulos2015network}
+Fragkiskos Papadopoulos, Rodrigo Aldecoa, and Dmitri Krioukov.
+\newblock Network geometry inference using common neighbors.
+\newblock {\em Physical Review E}, 92(2):022807, 2015.
+
+\bibitem{alanis2016manifold}
+Gregorio Alanis-Lobato, Pablo Mier, and Miguel~A Andrade-Navarro.
+\newblock Manifold learning and maximum likelihood estimation for hyperbolic
+  network embedding.
+\newblock {\em Applied Network Science}, 1(1):10, 2016.
+
+\bibitem{thomas2016machine}
+Josephine~Maria Thomas, Alessandro Muscoloni, Sara Ciucci, Ginestra Bianconi,
+  and Carlo~Vittorio Cannistraci.
+\newblock Machine learning meets network science: dimensionality reduction for
+  fast and efficient embedding of networks in the hyperbolic space.
+\newblock {\em arXiv preprint arXiv:1602.06522}, 2016.
+
+\end{thebibliography}

@@ -1,0 +1,253 @@
+\documentclass{report}
+
+\usepackage{amsmath}
+
+\title{\Huge \textbf{Extracting Knowledge from Complex Networks: Thesis Proposal}}
+\author{David McDonald \\
+	Dr. Shan He \\
+	Dr. Peter Tino}
+\date{}
+
+\begin{document}
+	
+	\maketitle
+	
+	\begin{abstract}
+		content...
+	\end{abstract}
+	
+	\tableofcontents
+	
+	\chapter{Introduction}
+	
+	
+		sparse E order N
+		small world phenomenon
+		degree distribution follows power law [2, 3]
+		heterogeneity
+		
+		A complex network is a graph that is comprised of non-trivial or uniform features. These networks often arise when modelling real-word systems. The early belief was that the interactions of such seemingly unrelated things as proteins, social interactions and the internet were random and unconnected. However, it has been shown that most real world systems have the same basic architecture \cite{barabasi2009scale}. Real world networks often scale-free in that the distribution of node degree is a power law. Connections are preferentially made between nodes with a probability proportional to their existing degree. Some complex networks also are characterised by the `small world' phenomenon, where one would expect a small average shortest path length and a high degree of clustering \cite{watts1998collective}. The underlying similarity of the interactions between agents in real-world phenomena is surprising and launched the popularity of complex network research. Research that has swiftly captured the imagination of researchers of many fields; fields such as epidemiology, mathematics, computer science, sociology and biology.
+
+	
+	
+	\chapter{Thesis Statement}
+	
+	\section{Research questions}
+	
+	\begin{enumerate}
+		\item
+	\end{enumerate}
+	
+	
+	\section{Significance}
+	
+	
+	
+	
+	\chapter{Background / Literature Review}
+	
+	Summarise main work in each area 
+	
+%	\section{Notation: Graph Theory}
+	
+
+	
+	
+	\section{Community Detection}
+	
+	Most real-world networks contain subsets of nodes that contain a higher degree of inter-connectivity than the rest of the network
+	\cite{palla2005uncovering,lancichinetti2009detecting}.
+	These subsets are commonly referred to as communities. 
+	A rigorous definition for a `community' within a network still seems to elude the scientific community \cite{lancichinetti2009detecting}.
+	However, the most popular definition among scholars is the planted l-partition model. 
+	This was popularised thanks to Girvan and Newman in their seminal work \cite{girvan2002community} and states that as long the probability of a node being connected to its group is greater than the probability of it being connected to the rest of the graph, then those groups are communities. 
+	`Community detection' is the name given to the problem of finding the underlying community structure in a given network \cite{girvan2002community}. 
+	For example, groups of friends in a social network, functional modules in Protein Protein Interaction (PPI) networks and scientific disciplines in co-authorship networks.
+	
+%	Most real world networks do not solely contain communities at one scale \cite{lancichinetti2009detecting,yang2013hierarchical}. 
+%	They contain super communities that may contain sub-communities, that may, in turn, contain their own sub communities.
+%	And so on. 
+%	Delving deeper into the community structure may offer some insight into how these processes work.
+%	For example, hierarchical analysis of protein-protein interaction networks may help to identify subsets of functionally-related proteins that interact together strongly within an established community representing some biological process.
+
+	But, a general community detection algorithm does not yet exist.
+	Many existing algorithms suffer from a number of issues. 
+	To name a few:
+	The number and scale of communities must be known a-priori, which in most real applications, is infeasible.
+	Additionally, the relationships between communities, both one the same level and at different ones, is lost.
+	Identifying not only the community itself, but its position in the network as a whole, provides further insight into the often abstract interactions that comprise complex networks and so preserving this information when analysing a network is paramount.
+	And, in some cases, the algorithms cannot deal with special cases: for example, modularity-based methods suffer from the so-called `resolution limit' \cite{fortunato2007resolution}.
+	
+	\subsection{Cut-Based and Spectral Approaches}
+	The flagship Kernighan-Lin algorithm  \cite{kernighan1970efficient} focused on `cutting' the network into modules, in such a way that the number of edges cut was minimized. 
+	However, this often favoured cuts of small, peripheral subgraphs, so it was adapted into ratio cut \cite{wei1991ratio}, normalised cut \cite{shi2000normalized} and min-max cut \cite{ding2001min} that took the number of nodes in each resulting sub-graph into account, and thus resulted in a partition that was more balanced.
+	
+	Contemporary cut-based approaches are concerned more with edges, rather than vertices and gave rise to a new measure for a good cut, called conductance:
+	\begin{align}
+	\phi(S) = \frac{c_s}{\min(Vol(S),Vol(V \setminus S)} 
+	\end{align}
+	with
+	\begin{align}
+	c_s = |\{(u,v) : u \in S, v \not\in S\}|
+	\end{align}
+	Conductance is still prolific in the literature: it has been used to detect communities in bipartite networks \cite{barber2007modularity}, combined with PageRank \cite{andersen2006local} and used as the basis for a greedy optimisation algorithm \cite{lancichinetti2009community} capable of finding overlapping communities at different scales. 
+	
+	Spectral clustering dates back to the work of Donath and Hoffman in 1973 \cite{donath1973lower}. 
+	However, it was popularized in the early 2000s \cite{shi2000normalized,ng2002spectral,ding2004tutorial}. 
+	Spectral methods rely upon constructing `Laplacian' matrices from the raw network data and eigen-decomposing them. 
+	Clustering the resulting eigenvectors results in clusters of the original data points. 
+	Spectral approaches have many advantages over other techniques and, as a result, they have become popular in the machine learning community for clustering  on non-linear manifolds. 
+	According to \cite{von2007tutorial}, `these methods do not make assumptions about the form of the clusters' and are capable of correctly identifying typically challenging clusters, such as the famous two spirals example. 
+	For community detection, they have the additional benefit of efficiency, especially if the graph adjacency matrix is sparse. 
+
+	Further work includes the Markov Clustering algorithm (MCL) that simulates a diffusion process on a graph by repeatedly performing stages of expansion and inflation and only keeping the $k$ largest elements for efficiency \cite{van2001graph}. 
+	
+	\subsection{Modularity-Based Approaches}
+	The seminal work of Girvan and Newman \cite{girvan2002community} marked a significant advance in the field by providing the first quantitative measure of a community: modularity. 
+	The modularity of a partition of a network 
+	defined as
+	\begin{align} 
+	\label{modularity}
+	Q = \sum_{s=1}^m \bigg[ \frac{l_s}{L} - \bigg( \frac{d_s}{2L} \bigg)^2\bigg]
+	\end{align}
+	scores a network partition by comparing the number of links inside a given module with the expected number that would be found in a random graph of the same size and degree sequence. 
+	Here, $m$ is the number of modules in the partition, $l_s$ is the number of links in module $s$, $L$ is the total number of links in the network and $d_s$ is the total degree of the nodes in $s$. 
+	%The first term in equation \ref{modularity} is the fraction of links inside $s$ and the second term represents the expected fraction of random links in the graphs to be in the module. 
+	Girvan and Newman propose a hierarchical divisive algorithm that removes edges based on their `betweenness' (the number of shortest paths from two nodes in the network that go through them) until the modularity quality function is maximized. 
+	The early work of Girvan and Newman has since been expanded upon.
+	For example, edge clustering in favour of edge-betweenness \cite{radicchi2004defining}, iteratively adding links to a module based on their expected increase in modularity \cite{clauset2004finding}, and multi-stage local optimization \cite{blondel2008fast}.
+	
+	%Radicchi at al. \cite{radicchi2004defining} used a similar divisive algorithm, but instead of edge betweenness, used an edge clustering co-efficient based on loops in the network. 
+	%They also proffers the notion of `strong' and `weak' communities based on their internal and external degrees. 
+	%Clauset et al. \cite{clauset2004finding} sped up Newman's the agglomerate algorithm in \cite{newman2005power} to iteratively add links to a module based on their expected increase in modularity. 
+	%A similar approach was performed by Guimera and Amaral \cite{guimera2005functional} with simulated annealing. 
+	%Blondel et al. \cite{blondel2008fast} offered a multi-stage local optimization of Girvan and Newman's algorithm that iteratively replaced communities with a single node. 
+	
+	%Other work with modularity-based quality scores include the work of Rosvall and Bergstrom \cite{rosvall2007information} that translated the problem of community detection into the problem of optimally compressing the information in a graph such that the most information can be uncovered when the compression is decoded. 
+	%They used simulated annealing to minimize a function that represented both compression and data loss. 
+	%While slow and computationally expensive, this approach was also shown to work well with dynamic processes in his later work \cite{rosvall2008maps}. 
+	
+	%It has been shown that modularity-based approaches have their limitations. 
+	%In particular, Fortunato and Bartelemy \cite{fortunato2007resolution} show what they referred to as the `resolution limit' - that modularity-based approaches can fail to identify communities that are smaller in size than a scale that depends on the size of the network, and this results in incorrect community division in the cases when even small communities must be considered. 
+	%But it has been shown that resolution limit can be overcome.
+	%Ronhovde and Nussinov \cite{ronhovde2010local} does not compare to a null model as in equation \ref{modularity}, but instead penalize communities for any missing edges. 
+	%This provided good results even on very small communities compared to the size of the overall network. 
+	
+%	\subsection{Statistical Approaches}
+%	Statistical approaches have been shown to deduce the best model to fit the data represented in the graph structure, which may not necessarily be communities \cite{newman2004finding}.
+%	They have also been used to show the trade off between using heuristics to reduce the search space and optimization of a constrained quadratic function \cite{yang2013hierarchical}.
+	%In \cite{newman2004finding}, Newman and Girvan used Bayesian inference to deduce the best model to fit the data represented in the graph structure.
+	%His algorithm was capable of finding the best group structure for any graph, no just a community structure, but required the number of groups to be know a-priori. 
+	%Probability theory was also used by Yang et al. in \cite{yang2013hierarchical} for the construction of their Probabilistically Mining Communities (PMC) algorithm. 
+	%PMC offers a trade off between using a random walk as a heuristic to reduce the search space and optimizing using a constrained quadratic optimization function. 
+	%Furthermore, `label propagation' methods proposed by Raghavan in \cite{raghavan2007near} have had success at detecting communities in real time \cite{leung2009towards}.
+	
+	
+	\subsection{Neural Network Approaches}
+	The deep learning community has began to explore the possibilities of using neural networks for clustering in the graph domain. Convolutional neural networks (CNNs), powerful machine learning tools that have proven very successful for challenging classification tasks that have recently been generalised to take a graph input \cite{defferrard2016convolutional}. 
+	CNNs have also been used for semi-supervised learning on graphs, where the they are capable of learning both graph structure and node features \cite{kipf2016semi}. 
+	%Here, some nodes are labelled the labels of every other node are inferred by the model, which is capable of learning both the graph structure and node features.  
+	
+	\section{Hierarchical Community Detection}
+	%In many practical networks, partitioning a network into a cover does not accurately reflect the inherent community structure of the data. Sometimes, nodes can belong to more than one community -- sometimes communities overlap. The first algorithm to consider overlapping communities was CFinder in 2006 \cite{adamcsek2006cfinder}. Drawing from the earlier work of Palla et al. and the Clique Percolation Method (CPM) \cite{palla2005uncovering}, CFinder considered communities as the unions of k-cliques and so rolled k-cliques across the graph to detect communities. While computationally expensive, it was able to deal with overlapping cases, and opened the door for further study. Shen et al. proposed EAGLE in 2009 \cite{shen2009detect} that used maximal cliques, an agglomerative hierarchical structure and a modified modularity quality function that detected complex overlapping community structures.
+	
+	The hierarchical nature of modularity-based clustering methods can allow them to detect communities at different scales. 
+	\cite{lancichinetti2009detecting} used local optimization to maximize a fitness function with a parameter that controlled the size of communities detected.
+	Other work includes multi-scale quality functions that can uncover hierarchical communities and produce several different partitions of a graph, the post-processing of clusters found by hierarchical methods (encoded in a dendogram) \cite{pons2011post}, and Bayesian non-negative matrix factorisation that performs `soft-partitioning' and assigns node participation scores to modules \cite{psorakis2011overlapping}.
+	
+	
+	%Complex networks very often contain communities at different scales -- communities within communities -- and it is informative to investigate the communities identified at different levels of hierarchical algorithms to uncover these. 
+	%The first algorithm to look for both overlapping and hierarchical communities was proposed by Lancincetti et al. \cite{lancichinetti2009detecting}, where they aim to locally maximize a fitness function based on the fraction of connections going in and out of a subset of nodes, and a parameter $\alpha$ that controlled the scale of the communities uncovered.
+	%\begin{align}
+	%f_G = \frac{k_{in}^G}{(k_{in}^G + k_{out}^G)^\alpha}
+	%\end{align}
+	%where $k_{in}^G$, and $k_{out}^G$ are the total internal and external degree of the nodes going into community $G$, and $\alpha$ controls the size of communities. 
+	
+	%Potts methods have also shown good tolerance towards communities that overlap. 
+	%Both \cite{reichardt2006statistical} and \cite{ronhovde2009multiresolution} look for the ground state of spin and interpret the spin configuration that minimizes energy of spin glass as the underlying community structure of the state. 
+	%Due to user-controlled resolution parameters, they are able to identify overlapping and hierarchical communities.
+	
+%	\subsection{Evolutionary Approaches}
+%	Approaches using evolutionary algorithms typically encode the community structure of a graph using the locus based adjacency first proposed in \cite{park1998genetic}. The genotype consists of $N$ genes and $j$ appearing in gene position $i$ is interpreted as nodes $i$ and $j$ belonging to the same community. This representation was used to great effect as part of the MOCK algorithm \cite{handl2007evolutionary} which solved the community (or in this case, clustering) problem using a multi-objective optimisation algorithm that attempted to balance compactness and connection of the clusters, and used several novel genetic operators. Variation modifiers are used in \cite{pizzuti2008ga} to reduce the search pace by taking into account the correlations of the nodes.
+	
+	\subsection{Community Detection in Multilayer and Multislice Networks}
+	
+	\section{Active Module Identification}
+	
+	Community detection considers only the structure of the network at hand. However, in the age of big data, entities in the network may be enriched with additional attributes that are not solely based upon the observed topology of the network. For example, people in a social network may be annotated with preferences such as hobbies and interests and we would expect two people with the same interests to still somehow be similar, even if we do not observe a direct link between them in the network. Within the context of computational biology, this is perhaps even more relevant, due to the vast quantity and variety of data now available to us, and the successes of integrative models in the past. Integrative models get their name from the principle of integrating observed data (say, gene expression) with prior knowledge (often in the form of a known protein interaction network and/or previously curated functional annotations). \cite{mitra2013integrative} offers a summary of many the integrative approaches popular in the literature.
+	
+	One of the most successful integrative approach is the identification of so-called `active modules'. It is a relatively recent trend within the interdisciplinary fields of network science and translational medicine and aims to augment known physical interactions with observed expression levels to identify connected sub-graphs (called sub-networks for the remainder of this proposal) that are maximally differently expressed. Ideker et al. was the first to formalise this problem in \cite{ideker2002discovering} in 2002. Given a known PPI network $G$ and a matrix of gene expression levels with their corresponding p-values $P$, we compute a z-score for each gene $i$ in the network as:
+	\begin{align}
+	z_i = \Phi^{-1}(1 - p_i)
+	\end{align}
+	and then score identified sub-networks $A$ in an aggregated manner with 
+	\begin{align}
+	z_A = \frac{1}{\sqrt{k}}\sum_{i\in A}z_i
+	\label{ideker}
+	\end{align}
+	where a high $z_A$ represents a biologically active sub-network. Here, $\Phi^{-1}$ is the inverse normal CDF.
+	
+	Computing an exact solution is NP-hard \cite{ideker2002discovering}, so the authors employ a heuristic search based on simulated annealing to search for the maximally scoring sub-graph in the network. Genetic algorithms (GAs) \cite{Klammer2010}, greedy methods \cite{nacu2007gene} and propagation of flow from cancer genes have since been used \cite{vandin2011algorithms}. More recent work has employed a memetic algorithm to ensure connectedness \cite{li2017active}; a multi-objective optimisation process to control the trade off between biological activity and functional enrichment of the detected modules \cite{chen2017prior}; and a cooperative co-evolutionary approach \cite{he2016cooperative}. Interestingly, despite the NP-hardness of the problem, \cite{dittrich2008identifying} showed that by transforming the above problem into the well known Prize Collecting Stein Tree (PCST) problem, exact solutions can be obtained in reasonable computational time with integer programming.
+	
+	
+	\section{Network Embedding}
+	
+	Several models in the literature assume the existence of an underlying metric space that controls the topology of the network. They suppose that entities that are closer together in this space are more `similar' and have a higher probability of being connected. These models aim to infer the geometry of these spaces and the positions of nodes within the space, such that the probability of reconstructing the observed network is maximised. This is the so-called network embedding, and is the cornerstone of the field of \textit{network geometry}. 
+
+	Network embedding is closely related to the field of manifold learning. Indeed, many classical non-linear manifold learning techniques, such as Isomap \cite{tenenbaum2000global} and Laplacian Eigenmaps \cite{belkin2002laplacian}, must first construct nearest neighbour graphs based on dissimilarities between samples before dimensionality reduction takes place. Many of these techniques are directly applicable to embedding of complex networks by simply omitting the graph construction step.
+
+	An interesting and popular embedding paradigm in the literature comes from natural language processing. In particular, the Skipgram model and the Word2Vec algorithm that aims to vectorise words and phrases in a semantic space such that similar words are mapped close together \cite{mikolov2013distributed,mikolov2013efficient}. The principle idea is, given a corpus of words and a particular sentence, generate a `context' for each input word with the aim of maximising the likelihood of observing context words in the embedding space, given the input word. Similarities are measures by dot products and accordingly, observation probabilities are computed using a multilayer perception with a linear hidden layer and softmax output. Through the use of sub-sampling and negative sampling (replacing softmax with sigmoid), training can be made very efficient and the resulting embeddings can be obtained from the activation of the hidden units. This idea naturally extends to networks, where sentences are replaced by `neighbourhood graphs' generated from random walks. Furthermore, the shallow architecture of the Skipgram model has been replaced with multiple non-linear layers to learn the highly non-linear relationships between nodes \cite{tang2015line,perozzi2014deepwalk}. By introducing additional parameters into the random walk to control a breadth vs. depth first neighbourhood search, \cite{grover2016node2vec} were able to identify neighbourhoods of nodes with high \textit{homophily} and high structural similarity. 
+	
+	\subsection{Embedding to a Hyperbolic Metric Space}
+	
+	An emerging popular belief in the literature is that the underlying metric space of most complex networks is in fact hyperbolic. Nodes in real world networks often form a \textit{taxonomy}, where nodes are grouped hierarchically into groups in an approximate tree structure. Hyperbolic spaces can be viewed as continuous representations of this tree structure and so models that embed networks into hyperbolic space have proven to be increasingly popular in the literature \cite{krioukov2009curvature,krioukov2010hyperbolic}. In fact, this assumption has already had proven success in the task of greedy forwarding of information packets where nodes use only the hyperbolic coordinates of their neighbours to ensure packets reach their intended destination \cite{papadopoulos2010greedy}. 
+	
+	The most popular of all these models is the Popularity-Similarity (or PS) model \cite{papadopoulos2011popularity}. This model extends the ``popularity is attractive'' aphorism of preferential attachment to include node similarity as a further dimension of attachment. Nodes like to connect to popular nodes but also similar ones. The PS model sustains that the clustering and hierarchy observed in real world networks is the result of this principle \cite{alanis2016efficient}. This model has a simple interpretation in two dimensional hyperbolic space, where nodes are placed on a hyperbolic disk, with radial coordinates representing popularity and angular coordinates representing similarity. Then the hyperbolic distance between two nodes $\textbf{x}_1=(r_1, \theta_1)$ and $\textbf{x}_2=(r_2, \theta_2)$, given by\footnote{This is the hyperbolic law of cosines.}:
+	\begin{align}
+		d(\textbf{x}_1, \textbf{x}_2) &= \text{arccosh}(\cosh(r1)\cosh(r2) - \sinh(r1)\sinh(r2)\cos(\Delta\theta) \\
+		\Delta\theta &= \pi - | \pi - | \theta_1 - \theta_2 | |
+	\end{align}
+	controls their connection probabilities. Nodes with short hyperbolic distances show a higher probability of being connected.
+	
+	Maximum likelihood (ML) was used in \cite{papadopoulos2011popularity} to search the space of all PS models with similar structural properties as the observed network, to find the one that fit it best. This was extended in \cite{papadopoulos2015network,papadopoulos2015network}. Due to the computationally demanding task of maximum likelihood estimation, often heuristic methods are used. For example, \cite{alanis2016efficient} used Laplacian Eigenmaps to efficiently estimate the angular coordinates of nodes in the PS model. The authors then combined both approaches to leverage the performance of ML estimation against the efficiency of heuristic search with a user controlled parameter in \cite{alanis2016manifold}. Additionally, \cite{thomas2016machine} propose the use of classical manifold learning techniques in the PS model setting with a framework that they call \textit{coalescent embedding}.
+	
+	\subsection{Embedding with Node Dynamics}
+	As discussed earlier, it is informative to study not just the topological features of a network, but also the dynamics that take place upon it. 
+	NOTHING WITH NODE SCORES
+	
+
+	
+	\chapter{Proposed Work / Methods}
+	
+	GAPS:
+	
+	clustering (attribute based)
+	communities (topology based) (PPI communities rarely align with functional modules)
+	small networks / scalability
+	
+	(hyperbolic) Embedding with node scores 
+	Active Modules in multilayer networks
+	Hyperbolic embedding of multilayer networks 
+	Another dimension of attractiveness
+	
+	\section{Mathematical Model?}
+	
+	\chapter{Preliminary Results}
+	
+	
+	
+	\chapter{Work Plan / Timeline}
+	
+	
+	
+	
+	\chapter{Implications of Research}
+	
+	
+	
+	
+	
+	\bibliography{references}
+	\bibliographystyle{named}
+	
+\end{document}
