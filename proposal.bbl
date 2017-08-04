@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{barabasi1999emergence}
+Albert-L{\'a}szl{\'o} Barab{\'a}si and R{\'e}ka Albert.
+\newblock Emergence of scaling in random networks.
+\newblock {\em science}, 286(5439):509--512, 1999.
+
 \bibitem{barabasi2009scale}
 Albert-L{\'a}szl{\'o} Barab{\'a}si.
 \newblock Scale-free networks: a decade and beyond.
@@ -9,6 +14,18 @@ Albert-L{\'a}szl{\'o} Barab{\'a}si.
 Duncan~J Watts and Steven~H Strogatz.
 \newblock Collective dynamics of ‘small-world’networks.
 \newblock {\em nature}, 393(6684):440--442, 1998.
+
+\bibitem{barabasi2002linked}
+Albert-Laszlo Barabasi.
+\newblock Linked: How everything is connected to everything else and what it
+  means.
+\newblock {\em Plume Editors}, 2002.
+
+\bibitem{girvan2002community}
+Michelle Girvan and Mark~EJ Newman.
+\newblock Community structure in social and biological networks.
+\newblock {\em Proceedings of the national academy of sciences},
+  99(12):7821--7826, 2002.
 
 \bibitem{palla2005uncovering}
 Gergely Palla, Imre Der{\'e}nyi, Ill{\'e}s Farkas, and Tam{\'a}s Vicsek.
@@ -21,12 +38,6 @@ Andrea Lancichinetti, Santo Fortunato, and J{\'a}nos Kert{\'e}sz.
 \newblock Detecting the overlapping and hierarchical community structure in
   complex networks.
 \newblock {\em New Journal of Physics}, 11(3):033015, 2009.
-
-\bibitem{girvan2002community}
-Michelle Girvan and Mark~EJ Newman.
-\newblock Community structure in social and biological networks.
-\newblock {\em Proceedings of the national academy of sciences},
-  99(12):7821--7826, 2002.
 
 \bibitem{fortunato2007resolution}
 Santo Fortunato and Marc Barthelemy.
@@ -117,6 +128,19 @@ Vincent~D Blondel, Jean-Loup Guillaume, Renaud Lambiotte, and Etienne Lefebvre.
 \newblock {\em Journal of statistical mechanics: theory and experiment},
   2008(10):P10008, 2008.
 
+\bibitem{rosvall2007information}
+Martin Rosvall and Carl~T Bergstrom.
+\newblock An information-theoretic framework for resolving community structure
+  in complex networks.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  104(18):7327--7331, 2007.
+
+\bibitem{rosvall2008maps}
+Martin Rosvall and Carl~T Bergstrom.
+\newblock Maps of random walks on complex networks reveal community structure.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  105(4):1118--1123, 2008.
+
 \bibitem{defferrard2016convolutional}
 Micha{\"e}l Defferrard, Xavier Bresson, and Pierre Vandergheynst.
 \newblock Convolutional neural networks on graphs with fast localized spectral
@@ -127,6 +151,19 @@ Micha{\"e}l Defferrard, Xavier Bresson, and Pierre Vandergheynst.
 Thomas~N Kipf and Max Welling.
 \newblock Semi-supervised classification with graph convolutional networks.
 \newblock {\em arXiv preprint arXiv:1609.02907}, 2016.
+
+\bibitem{adamcsek2006cfinder}
+Bal{\'a}zs Adamcsek, Gergely Palla, Ill{\'e}s~J Farkas, Imre Der{\'e}nyi, and
+  Tam{\'a}s Vicsek.
+\newblock Cfinder: locating cliques and overlapping modules in biological
+  networks.
+\newblock {\em Bioinformatics}, 22(8):1021--1023, 2006.
+
+\bibitem{shen2009detect}
+Huawei Shen, Xueqi Cheng, Kai Cai, and Mao-Bin Hu.
+\newblock Detect overlapping and hierarchical community structure in networks.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  388(8):1706--1712, 2009.
 
 \bibitem{pons2011post}
 Pascal Pons and Matthieu Latapy.
@@ -139,6 +176,20 @@ Ioannis Psorakis, Stephen Roberts, Mark Ebden, and Ben Sheldon.
 \newblock Overlapping community detection using bayesian non-negative matrix
   factorization.
 \newblock {\em Physical Review E}, 83(6):066114, 2011.
+
+\bibitem{mucha2010community}
+Peter~J Mucha, Thomas Richardson, Kevin Macon, Mason~A Porter, and Jukka-Pekka
+  Onnela.
+\newblock Community structure in time-dependent, multiscale, and multiplex
+  networks.
+\newblock {\em science}, 328(5980):876--878, 2010.
+
+\bibitem{ashourvan2017multi}
+Arian Ashourvan, Qawi~K Telesford, Timothy Verstynen, Jean~M Vettel, and
+  Danielle~S Bassett.
+\newblock Multi-scale detection of hierarchical community architecture in
+  structural and functional brain networks.
+\newblock {\em arXiv preprint arXiv:1704.05826}, 2017.
 
 \bibitem{mitra2013integrative}
 Koyel Mitra, Anne-Ruxandra Carvunis, Sanath~Kumar Ramesh, and Trey Ideker.
@@ -270,6 +321,12 @@ Gregorio Alanis-Lobato, Pablo Mier, and Miguel~A Andrade-Navarro.
 \newblock {\em Scientific Reports}, 6, 2016.
 
 \bibitem{papadopoulos2015network}
+Fragkiskos Papadopoulos, Constantinos Psomas, and Dmitri Krioukov.
+\newblock Network mapping by replaying hyperbolic growth.
+\newblock {\em IEEE/ACM Transactions on Networking (TON)}, 23(1):198--211,
+  2015.
+
+\bibitem{papadopoulos2015networkgeo}
 Fragkiskos Papadopoulos, Rodrigo Aldecoa, and Dmitri Krioukov.
 \newblock Network geometry inference using common neighbors.
 \newblock {\em Physical Review E}, 92(2):022807, 2015.
@@ -286,5 +343,38 @@ Josephine~Maria Thomas, Alessandro Muscoloni, Sara Ciucci, Ginestra Bianconi,
 \newblock Machine learning meets network science: dimensionality reduction for
   fast and efficient embedding of networks in the hyperbolic space.
 \newblock {\em arXiv preprint arXiv:1602.06522}, 2016.
+
+\bibitem{gibert2012graph}
+Jaume Gibert, Ernest Valveny, and Horst Bunke.
+\newblock Graph embedding in vector spaces by node attribute statistics.
+\newblock {\em Pattern Recognition}, 45(9):3072--3083, 2012.
+
+\bibitem{niepert2016learning}
+Mathias Niepert, Mohamed Ahmed, and Konstantin Kutzkov.
+\newblock Learning convolutional neural networks for graphs.
+\newblock In {\em International Conference on Machine Learning}, pages
+  2014--2023, 2016.
+
+\bibitem{li2017attributed}
+Jundong Li, Harsh Dani, Xia Hu, Jiliang Tang, Yi~Chang, and Huan Liu.
+\newblock Attributed network embedding for learning in a dynamic environment.
+\newblock {\em arXiv preprint arXiv:1706.01860}, 2017.
+
+\bibitem{liao2017attributed}
+Lizi Liao, Xiangnan He, Hanwang Zhang, and Tat-Seng Chua.
+\newblock Attributed social network embedding.
+\newblock {\em arXiv preprint arXiv:1705.04969}, 2017.
+
+\bibitem{ISI:000293452500017}
+R.~Lambiotte, R.~Sinatra, J-C Delvenne, T.~S. Evans, M.~Barahona, and
+  V.~Latora.
+\newblock Flow graphs: Interweaving dynamics and structure.
+\newblock {\em PHYSICAL REVIEW E}, 84, 2011.
+
+\bibitem{vogel2012insights}
+Christine Vogel and Edward~M Marcotte.
+\newblock Insights into the regulation of protein abundance from proteomic and
+  transcriptomic analyses.
+\newblock {\em Nature reviews. Genetics}, 13(4):227, 2012.
 
 \end{thebibliography}

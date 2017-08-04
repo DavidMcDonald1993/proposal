@@ -3,50 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: proposal.aux
 The style file: unsrt.bst
 Database file #1: references.bib
-Repeated entry---line 507 of file references.bib
- : @article{papadopoulos2015network
- :                                 ,
+Repeated entry---line 2935 of file references.bib
+ : @article{barabasi1999emergence
+ :                               ,
 I'm skipping whatever remains of this entry
 Warning--empty school in van2001graph
-You've used 49 entries,
+You've used 64 entries,
             1791 wiz_defined-function locations,
-            741 strings with 12658 characters,
-and the built_in function-call counts, 12501 in all, are:
-= -- 1122
-> -- 579
-< -- 8
-+ -- 211
-- -- 162
-* -- 936
-:= -- 1965
-add.period$ -- 153
-call.type$ -- 49
-change.case$ -- 48
+            819 strings with 15370 characters,
+and the built_in function-call counts, 16131 in all, are:
+= -- 1441
+> -- 767
+< -- 9
++ -- 279
+- -- 215
+* -- 1213
+:= -- 2554
+add.period$ -- 198
+call.type$ -- 64
+change.case$ -- 63
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 532
-empty$ -- 1192
-format.name$ -- 162
-if$ -- 2772
+cite$ -- 65
+duplicate$ -- 676
+empty$ -- 1525
+format.name$ -- 215
+if$ -- 3555
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 48
-newline$ -- 248
-num.names$ -- 49
-pop$ -- 107
+int.to.str$ -- 64
+missing$ -- 63
+newline$ -- 323
+num.names$ -- 64
+pop$ -- 135
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 250
+skip$ -- 316
 stack$ -- 0
-substring$ -- 953
-swap$ -- 130
-text.length$ -- 8
+substring$ -- 1232
+swap$ -- 157
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 125
-width$ -- 51
-write$ -- 540
+while$ -- 160
+width$ -- 66
+write$ -- 701
 (There was 1 error message)
