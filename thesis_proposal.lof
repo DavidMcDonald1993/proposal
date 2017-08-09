@@ -1,0 +1,13 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Communities in a network}}{4}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A schematic representation of a multilayer complex network. Here, $C^{(n)}$ is the $n$th layer of the network. The right hand figure shows how the layers connect to each other, forming a network of networks. This network would be represented as a four-dimensional tensor with each entry $a^{\alpha \beta }_{ij}$ corresponding to the strength of link form node $i$ in layer $\alpha $ to node $j$ in layer $\beta $. Figure taken from \cite {de2013mathematical}.\relax }}{7}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Identified active modules in GAL80 knowckout experiment}}{9}{figure.caption.19}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A hyperbolic network embedding algorithm in action}}{11}{figure.caption.24}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces NCI-CPTAC DREAM Proteogenomics Challenge Sub-challenges}}{16}{figure.caption.35}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

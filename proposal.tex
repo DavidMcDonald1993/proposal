@@ -21,13 +21,16 @@
 	\chapter{Introduction}
 	
 	
-		sparse E order N
-		small world phenomenon
-		degree distribution follows power law [2, 3]
-		heterogeneity
-		
-		A complex network is a graph that is comprised of non-trivial or uniform features. These networks often arise when modelling real-word systems. The early belief was that the interactions of such seemingly unrelated things as proteins, social interactions and the internet were random and unconnected. However, it has been shown that most real world systems have the same basic architecture \cite{barabasi1999emergence,barabasi2009scale}. Real world networks often scale-free in that the distribution of node degree is a power law. Connections are preferentially made between nodes with a probability proportional to their existing degree. Some complex networks also are characterised by the `small world' phenomenon, where one would expect a small average shortest path length and a high degree of clustering \cite{watts1998collective}. The underlying similarity of the interactions between agents in real-world phenomena is surprising and launched the popularity of complex network research. Research that has swiftly captured the imagination of researchers of many fields; fields such as epidemiology, mathematics, computer science, sociology and biology.
-
+	Most complex systems observed in nature can be represented as a complex network. A complex network is a highly heterogeneous object that is represented as a mathematical graph that is comprised of non-trivial and non-uniform features. 
+	
+	
+%	While the early belief was that the interactions of such seemingly unrelated things as proteins, social interactions and the internet were random and unconnected, it has since been shown that, surprisingly, most real world systems have share a lot of similarities -- a revelation that gripped the scientific community and is the reason for the their continuing popularity in the literature across many diverse areas of study. Areas such as computer science, medicine and social analyses.
+	
+	Despite being characterised as complex objects, we have observed that many real world networks, from protein interaction networks, to the internet, possess shared features that unite such seemingly disparate subject and give rise to the prevailing popularity of their study. For example, we have observed that these complex networks follow scale-free distribution of node degree (often with exponent $\gamma\in [2, 3]$) \cite{barabasi1999emergence,barabasi2009scale}. Connections are preferentially made between nodes with a probability proportional to their existing degree, giving rise to the so-called preferential attachment model, a model that adheres to the old `popularity is attractive' adage. Furthermore, complex networks also are characterised by the `small world' phenomenon, where one would expect a small average shortest path length and a high degree of clustering \cite{watts1998collective}; and are typically very sparse with the number of edges in the same order as the number of nodes. 
+	
+	This work will focussed primarily upon the study of complex networks within the context of computational biology. Given the explosion of data available to us thanks to modern experimentation techniques, the need for modelling such data, has never been greater. Through the medium of complex networks, researchers wish to simplify and represent the raw data in a data-driven and scientifically justified way, such that is becomes useful for the purposes of making functional predictions and tracing the causes of observed disease phenotypes. 
+	
+	Already, we have seen the application of complex network models to the problems of identification of biologically relevant modules according to genetic expression profiles \cite{ideker2002discovering}; the multi scale detection of the function and structure of brain networks \cite{ashourvan2017multi}; and testable protein functional predictions \cite{palla2005uncovering,zhang2016integrated}. And with the growing availability of data and drive of the network science community, models are becoming more and more complex, with the integration of multiple types of data and more sophisticated analysis techniques. It is the hope of the work proposed here to further this burgeoning field by proposing novel, integrative network models that allow for the extraction of testable hypotheses based on the data currently available to us.
 	
 	
 	\chapter{Thesis Statement}
@@ -223,43 +226,38 @@
 	\subsection{Embedding with Node Dynamics}
 	Little work has been done to embed networks, accounting for both topology and node attributes, however recent years has shown it to become more prolific. \cite{gibert2012graph} embed into a vector space based on the statistics of attributes and pairs of attributes, \cite{li2017attributed} draw from the well known fields of manifold learning and multi-view learning to align the projections based on topology and attributes and \cite{liao2017attributed} use deep learning. In \cite{niepert2016learning}, the authors generalised convolutional neural networks from regular pixel lattices to arbitrary graphs. It is worth noting that by transforming an unweighted graph into a so-called `flow graph' \cite{ISI:000293452500017} by weighting links by node expression, many embedding techniques that are applicable to weighted graphs can be applied to unweighted graphs with node attributes. However, it is not clear how to do this if the graphs are already weighted, or nodes are annotated with discrete or multiple attributes.
 	
-	\section{Protein Abundance Prediction}
-	
-	TODO
+
 
 	
-	\chapter{Proposed Work / Methods}
+	\chapter{Proposed Work}
 	
-	After a thorough literature review, it became apparent that there are a number of gaps that merit further investigation. 
+	After a thorough literature review, it became apparent that there are a number of gaps worthy of further investigation.
 	
 	\section{Module Identification}
+	First and foremost, the identification of modules has proven to be an important step in extracting knowledge from a complex network. It is clear from the literature that topological modules (communities) rarely align with complete functional modules, such as pathways \cite{he2016cooperative}. Because of this, the addition of prior knowledge is essential to guide the module search to look beyond topology alone. Similarly, the identification of active modules must be guided by both node attributes (gene expressions) and network topology (identified subnetworks must be connected) \cite{ideker2002discovering}. Furthermore, modules in biological networks have been shown to have a highly hierarchical structure -- where large modules of more general function are composed of many smaller ones that perform more specific tasks. As such, any model for meaningful biological module recovery must take hierarchy into account. Also, biological systems are dynamic -- in that their activity, and maybe even topology changes over time -- and composed of many types of entities and interactions. Because of this, network models must be scalable from single to multiple layers in tractable time. Finally, due to experimental error and measurement difficulties often data is incomplete and so any model must be robust enough to handle this. All of these factors combined make the problem of identifying the modular structure of biological systems a complex optimisation and combinatorial problem. This work intends to overcome some of the weaknesses of other techniques -- such as poor scalability or user-defined parameters to control the number of modules or module scale -- by developing models that allow for the extraction of modules in a more data-driven way.
 	
-	hierarchical community detection preserving topology -- SOM
+	The first such model will use the topology preserving property of the self-organising map to construct a map of communities based on an observed network. The model will use the Growing Hierarchical Self-Organising Map (GHSOM) \cite{dittenbach2000growing} to grow maps organically with no need to specify map size a priori. Furthermore, neurons in the map may be selected for expansion, resulting in new maps of higher granularity for those data points. This results in a set of maps with hierarchical structure that reflects the underlying hierarchical community structure of the data.
 	
-	clustering (attribute based)
-	
-	communities (topology based) (PPI communities rarely align with functional modules)
-	
-	small networks / scalability
-	
-	
-	Active Modules in multilayer/multislice/different time points networks
-	-- preservation across multiple time points
+	This model has a number of drawbacks, in that it is solely topology based, and requires some network embedding to a Euclidean space or adaption of the algorithm to work directly on graphs, as in \cite{yamakawa2006self}. The map structure may also impose too strong an emphasis on module connection and so the Growing Hierarchical Neural Gas \cite{palomo2016growing} may be a more suitable choice, as it only connections between neurons are allowed also form in a data-driven way. It is also unclear how to scale this module to multiple layers without utilising some multi-view learning techniques to align the embeddings of the layers into the Euclidean space. Also, despite the appealing nature of not needing to know the number of modules or structure a priori, GHSOM is controlled by a number of parameters that can be difficult to tune.
 	
 	
 	\section{Hyperbolic Network Embedding}
+	Network embedding can be considered a preprocessing step towards knowledge extraction, such as module identification. The previous section mentioned an embedding step before module identification could take place, for example. Embedding allows for the transformation of problems: from module to detection to clustering. But, selecting a metric space and embedding method is a very non-trivial problem. 
 	
-	(hyperbolic) Embedding with node scores 
-	No dynamics in hyperbolic embedding
-
+	The recent trend towards models that support an underlying hyperbolic metric space is very appealing, as results are extremely positive, and the space is a generalisation of the hierarchical structure that we know actually exists in complex networks. However, there are a number of questions as yet unanswered that this work shall focus on. Firstly, how to embed networks with node attributes into hyperbolic space, such that active modules can be identifies as clusters. While single continuous node attributes can be combined with into the topology of an unweighted graph via construction of flow graphs \cite{ISI:000293452500017}, some of the current hyperbolic embedding methods (for examples LABNE \cite{alanis2016efficient}) is unsuitable for weighted graphs. Furthermore, flow graphs cannot be used if there is more than one node attribute. Another challenge is embedding of multilayer networks.
 	
-	Hyperbolic embedding of multilayer networks -- 3d hyperbolic space?
-	 
-	Another dimension of attractiveness?
+	This work will first attempt to tackle both of these problems for hyperbolic network embedding with the application of multi-view learning techniques. We will consider each layer as a separate view and align the separate embeddings onto the same space using, for example, kernel canonical correlation analysis (KCCA) \cite{hardoon2004canonical}. In the case of networks with node attributes, we shall first construct an `attribute network' by connecting nodes with similar attributes, for example with KNN. Another technique that shall be adapted for the hyperbolic space is the recently proposed extension of convolutional neural networks to arbitrary graphs \cite{niepert2016learning}. Additional ideas for future work include extending the currently used 2D hyperbolic plane to three dimensions to allow for simultaneous embedding of all layers. However, very little thought has been put into this currently.
 	
 		
-	\section{DREAM Proteogenomics Challenge}
+	\section{Protein Abundance Prediction}
 	
+	Protein function almost always determines the biological function of a cell. As a result, proteomics (the study of proteins) is perhaps the most well studied area of computational biology. However, there are a number of challenges that face the proteomics research community today. Firstly, protein datasets are often incomplete, due to experimental errors and other challenges. As such, an method to effectively impute missing values would enable the community to access data that would otherwise be ignored in analyses. Furthermore, protein data is expensive to generate and not as readily available to the scientific community as Copy-Number Alterations (CNA) and mRNA data. It is well known that mRNA is used to transfer information to proteins, however it has been shown that RNA expression alone is weakly predictive of protein levels \cite{vogel2012insights}. We would like to augment this analyses with the integration of CNA profiles -- which have been shown to affect protein abundances \cite{zhang2016integrated} -- for more accurate protein abundance prediction. Finally, by further integration of known proteomics profiles, we would like to predict the phosphorylation levels of proteins, as this has been shown to be one of the key so-called Post-translational Modifications (PTMs) that affect protein, and therefore cell, function. 
+	
+	These challenges form the basis for the NCI-CPTAC DREAM Proteogenomics Challenge that this author, along with a distinguished team of researchers, shall participate in. 
+	
+	Tackling the imputation challenge shall begin by performing a servery and comparison against ground truth of many common imputation techniques found in the literature. For example, sample means, matrix factorization, spectral regularization \cite{mazumder2010spectral}, Multiple Imputation by Chained Equations (MICE), and an autoencoder with an adapted objective as in \cite{beaulieu2016missing}. The best algorithm shall be adapted to give improved performance.
+	
+	Protein abundance and phosphorylation levels shall be tacked in a three stage way. First, by the application of simple machine learning techniques, such as regression models. Then, by constructing network models. Finally, by augmenting our models with the inclusion of domain knowledge than can be extracted from the given data, such as ribosome number and binding site information, provided by an expert in the field. 
 	
 	\chapter{Preliminary Results}
 	

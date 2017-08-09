@@ -15,8 +15,34 @@ Duncan~J Watts and Steven~H Strogatz.
 \newblock Collective dynamics of ‘small-world’networks.
 \newblock {\em nature}, 393(6684):440--442, 1998.
 
+\bibitem{ideker2002discovering}
+Trey Ideker, Owen Ozier, Benno Schwikowski, and Andrew~F Siegel.
+\newblock Discovering regulatory and signalling circuits in molecular
+  interaction networks.
+\newblock {\em Bioinformatics}, 18(suppl\_1):S233--S240, 2002.
+
+\bibitem{ashourvan2017multi}
+Arian Ashourvan, Qawi~K Telesford, Timothy Verstynen, Jean~M Vettel, and
+  Danielle~S Bassett.
+\newblock Multi-scale detection of hierarchical community architecture in
+  structural and functional brain networks.
+\newblock {\em arXiv preprint arXiv:1704.05826}, 2017.
+
+\bibitem{palla2005uncovering}
+Gergely Palla, Imre Der{\'e}nyi, Ill{\'e}s Farkas, and Tam{\'a}s Vicsek.
+\newblock Uncovering the overlapping community structure of complex networks in
+  nature and society.
+\newblock {\em Nature}, 435(7043):814--818, 2005.
+
+\bibitem{zhang2016integrated}
+Hui Zhang, Tao Liu, Zhen Zhang, Samuel~H Payne, Bai Zhang, Jason~E McDermott,
+  Jian-Ying Zhou, Vladislav~A Petyuk, Li~Chen, Debjit Ray, et~al.
+\newblock Integrated proteogenomic characterization of human high-grade serous
+  ovarian cancer.
+\newblock {\em Cell}, 166(3):755--765, 2016.
+
 \bibitem{barabasi2002linked}
-Albert-Laszlo Barabasi.
+Albert-L{\'a}szl{\'o} Barab{\'a}si.
 \newblock Linked: How everything is connected to everything else and what it
   means.
 \newblock {\em Plume Editors}, 2002.
@@ -26,12 +52,6 @@ Michelle Girvan and Mark~EJ Newman.
 \newblock Community structure in social and biological networks.
 \newblock {\em Proceedings of the national academy of sciences},
   99(12):7821--7826, 2002.
-
-\bibitem{palla2005uncovering}
-Gergely Palla, Imre Der{\'e}nyi, Ill{\'e}s Farkas, and Tam{\'a}s Vicsek.
-\newblock Uncovering the overlapping community structure of complex networks in
-  nature and society.
-\newblock {\em Nature}, 435(7043):814--818, 2005.
 
 \bibitem{lancichinetti2009detecting}
 Andrea Lancichinetti, Santo Fortunato, and J{\'a}nos Kert{\'e}sz.
@@ -184,24 +204,11 @@ Peter~J Mucha, Thomas Richardson, Kevin Macon, Mason~A Porter, and Jukka-Pekka
   networks.
 \newblock {\em science}, 328(5980):876--878, 2010.
 
-\bibitem{ashourvan2017multi}
-Arian Ashourvan, Qawi~K Telesford, Timothy Verstynen, Jean~M Vettel, and
-  Danielle~S Bassett.
-\newblock Multi-scale detection of hierarchical community architecture in
-  structural and functional brain networks.
-\newblock {\em arXiv preprint arXiv:1704.05826}, 2017.
-
 \bibitem{mitra2013integrative}
 Koyel Mitra, Anne-Ruxandra Carvunis, Sanath~Kumar Ramesh, and Trey Ideker.
 \newblock Integrative approaches for finding modular structure in biological
   networks.
 \newblock {\em Nature reviews. Genetics}, 14(10):719, 2013.
-
-\bibitem{ideker2002discovering}
-Trey Ideker, Owen Ozier, Benno Schwikowski, and Andrew~F Siegel.
-\newblock Discovering regulatory and signalling circuits in molecular
-  interaction networks.
-\newblock {\em Bioinformatics}, 18(suppl\_1):S233--S240, 2002.
 
 \bibitem{Klammer2010}
 Martin Klammer, Klaus Godl, Andreas Tebbe, and Christoph Schaab.
@@ -349,12 +356,6 @@ Jaume Gibert, Ernest Valveny, and Horst Bunke.
 \newblock Graph embedding in vector spaces by node attribute statistics.
 \newblock {\em Pattern Recognition}, 45(9):3072--3083, 2012.
 
-\bibitem{niepert2016learning}
-Mathias Niepert, Mohamed Ahmed, and Konstantin Kutzkov.
-\newblock Learning convolutional neural networks for graphs.
-\newblock In {\em International Conference on Machine Learning}, pages
-  2014--2023, 2016.
-
 \bibitem{li2017attributed}
 Jundong Li, Harsh Dani, Xia Hu, Jiliang Tang, Yi~Chang, and Huan Liu.
 \newblock Attributed network embedding for learning in a dynamic environment.
@@ -365,16 +366,59 @@ Lizi Liao, Xiangnan He, Hanwang Zhang, and Tat-Seng Chua.
 \newblock Attributed social network embedding.
 \newblock {\em arXiv preprint arXiv:1705.04969}, 2017.
 
+\bibitem{niepert2016learning}
+Mathias Niepert, Mohamed Ahmed, and Konstantin Kutzkov.
+\newblock Learning convolutional neural networks for graphs.
+\newblock In {\em International Conference on Machine Learning}, pages
+  2014--2023, 2016.
+
 \bibitem{ISI:000293452500017}
 R.~Lambiotte, R.~Sinatra, J-C Delvenne, T.~S. Evans, M.~Barahona, and
   V.~Latora.
 \newblock Flow graphs: Interweaving dynamics and structure.
 \newblock {\em PHYSICAL REVIEW E}, 84, 2011.
 
+\bibitem{dittenbach2000growing}
+Michael Dittenbach, Dieter Merkl, and Andreas Rauber.
+\newblock The growing hierarchical self-organizing map.
+\newblock In {\em IJCNN (6)}, pages 15--19, 2000.
+
+\bibitem{yamakawa2006self}
+Takeshi Yamakawa, Keiichi Horio, and Masaharu Hoshino.
+\newblock Self-organizing map with input data represented as graph.
+\newblock In {\em International Conference on Neural Information Processing},
+  pages 907--914. Springer, 2006.
+
+\bibitem{palomo2016growing}
+Esteban~J Palomo and Ezequiel L{\'o}pez-Rubio.
+\newblock The growing hierarchical neural gas self-organizing neural network.
+\newblock {\em IEEE transactions on neural networks and learning systems},
+  2016.
+
+\bibitem{hardoon2004canonical}
+David~R Hardoon, Sandor Szedmak, and John Shawe-Taylor.
+\newblock Canonical correlation analysis: An overview with application to
+  learning methods.
+\newblock {\em Neural computation}, 16(12):2639--2664, 2004.
+
 \bibitem{vogel2012insights}
 Christine Vogel and Edward~M Marcotte.
 \newblock Insights into the regulation of protein abundance from proteomic and
   transcriptomic analyses.
 \newblock {\em Nature reviews. Genetics}, 13(4):227, 2012.
+
+\bibitem{mazumder2010spectral}
+Rahul Mazumder, Trevor Hastie, and Robert Tibshirani.
+\newblock Spectral regularization algorithms for learning large incomplete
+  matrices.
+\newblock {\em Journal of machine learning research}, 11(Aug):2287--2322, 2010.
+
+\bibitem{beaulieu2016missing}
+Brett~K Beaulieu-Jones, Jason~H Moore, THE POOLED RESOURCE OPEN-ACCESS ALS, and
+  CLINICAL~TRIALS CONSORTIUM.
+\newblock Missing data imputation in the electronic health record using deeply
+  learned autoencoders.
+\newblock In {\em Pacific Symposium on Biocomputing. Pacific Symposium on
+  Biocomputing}, volume~22, page 207. NIH Public Access, 2016.
 
 \end{thebibliography}

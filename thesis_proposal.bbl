@@ -1,0 +1,2601 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{adamcsek2006cfinder}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Adamcsek}{A.}%
+     {Bal{\'a}zs}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Palla}{P.}%
+     {Gergely}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Farkas}{F.}%
+     {Ill{\'e}s~J}{I.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Der{\'e}nyi}{D.}%
+     {Imre}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vicsek}{V.}%
+     {Tam{\'a}s}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford Univ Press}%
+  }
+  \strng{namehash}{AB+1}
+  \strng{fullhash}{ABPGFIJDIVT1}
+  \field{labelyear}{2006}
+  \field{sortinit}{A}
+  \field{number}{8}
+  \field{pages}{1021\bibrangedash 1023}
+  \field{title}{CFinder: locating cliques and overlapping modules in biological
+  networks}
+  \field{volume}{22}
+  \field{journaltitle}{Bioinformatics}
+  \field{year}{2006}
+\endentry
+
+\entry{alanis2016efficient}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Alanis-Lobato}{A.-L.}%
+     {Gregorio}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mier}{M.}%
+     {Pablo}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Andrade-Navarro}{A.-N.}%
+     {Miguel~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{ALGMPANMA1}
+  \strng{fullhash}{ALGMPANMA1}
+  \field{labelyear}{2016}
+  \field{extrayear}{1}
+  \field{sortinit}{A}
+  \field{title}{Efficient embedding of complex networks to hyperbolic space via
+  their Laplacian}
+  \field{volume}{6}
+  \field{journaltitle}{Scientific Reports}
+  \field{year}{2016}
+\endentry
+
+\entry{alanis2016manifold}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Alanis-Lobato}{A.-L.}%
+     {Gregorio}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mier}{M.}%
+     {Pablo}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Andrade-Navarro}{A.-N.}%
+     {Miguel~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{ALGMPANMA1}
+  \strng{fullhash}{ALGMPANMA1}
+  \field{labelyear}{2016}
+  \field{extrayear}{2}
+  \field{sortinit}{A}
+  \field{number}{1}
+  \field{pages}{10}
+  \field{title}{Manifold learning and maximum likelihood estimation for
+  hyperbolic network embedding}
+  \field{volume}{1}
+  \field{journaltitle}{Applied Network Science}
+  \field{year}{2016}
+\endentry
+
+\entry{andersen2006local}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Andersen}{A.}%
+     {Reid}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chung}{C.}%
+     {Fan}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lang}{L.}%
+     {Kevin}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{ARCFLK1}
+  \strng{fullhash}{ARCFLK1}
+  \field{labelyear}{2006}
+  \field{sortinit}{A}
+  \field{booktitle}{2006 47th Annual IEEE Symposium on Foundations of Computer
+  Science (FOCS'06)}
+  \field{pages}{475\bibrangedash 486}
+  \field{title}{Local graph partitioning using pagerank vectors}
+  \field{year}{2006}
+\endentry
+
+\entry{ashourvan2017multi}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Ashourvan}{A.}%
+     {Arian}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Telesford}{T.}%
+     {Qawi~K}{Q.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Verstynen}{V.}%
+     {Timothy}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vettel}{V.}%
+     {Jean~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bassett}{B.}%
+     {Danielle~S}{D.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AA+1}
+  \strng{fullhash}{AATQKVTVJMBDS1}
+  \field{labelyear}{2017}
+  \field{sortinit}{A}
+  \field{title}{Multi-scale detection of hierarchical community architecture in
+  structural and functional brain networks}
+  \field{journaltitle}{arXiv preprint arXiv:1704.05826}
+  \field{year}{2017}
+\endentry
+
+\entry{barabasi2002linked}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Barab{\'a}si}{B.}%
+     {Albert-L{\'a}szl{\'o}}{A.-L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BAL1}
+  \strng{fullhash}{BAL1}
+  \field{labelyear}{2002}
+  \field{sortinit}{B}
+  \field{title}{Linked: How everything is connected to everything else and what
+  it means}
+  \field{journaltitle}{Plume Editors}
+  \field{year}{2002}
+\endentry
+
+\entry{barabasi2009scale}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Barab{\'a}si}{B.}%
+     {Albert-L{\'a}szl{\'o}}{A.-L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Association for the Advancement of Science}%
+  }
+  \strng{namehash}{BAL1}
+  \strng{fullhash}{BAL1}
+  \field{labelyear}{2009}
+  \field{sortinit}{B}
+  \field{number}{5939}
+  \field{pages}{412\bibrangedash 413}
+  \field{title}{Scale-free networks: a decade and beyond}
+  \field{volume}{325}
+  \field{journaltitle}{science}
+  \field{year}{2009}
+\endentry
+
+\entry{barabasi1999emergence}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Barab{\'a}si}{B.}%
+     {Albert-L{\'a}szl{\'o}}{A.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Albert}{A.}%
+     {R{\'e}ka}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Association for the Advancement of Science}%
+  }
+  \strng{namehash}{BALAR1}
+  \strng{fullhash}{BALAR1}
+  \field{labelyear}{1999}
+  \field{sortinit}{B}
+  \field{number}{5439}
+  \field{pages}{509\bibrangedash 512}
+  \field{title}{Emergence of scaling in random networks}
+  \field{volume}{286}
+  \field{journaltitle}{science}
+  \field{year}{1999}
+\endentry
+
+\entry{barber2007modularity}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Barber}{B.}%
+     {Michael~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{BMJ1}
+  \strng{fullhash}{BMJ1}
+  \field{labelyear}{2007}
+  \field{sortinit}{B}
+  \field{number}{6}
+  \field{pages}{066102}
+  \field{title}{Modularity and community detection in bipartite networks}
+  \field{volume}{76}
+  \field{journaltitle}{Physical Review E}
+  \field{year}{2007}
+\endentry
+
+\entry{beaulieu2016missing}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Beaulieu-Jones}{B.-J.}%
+     {Brett~K}{B.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moore}{M.}%
+     {Jason~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {ALS}{A.}%
+     {THE POOLED RESOURCE OPEN-ACCESS}{T.~P. R. O.-A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {CONSORTIUM}{C.}%
+     {CLINICAL~TRIALS}{C.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {NIH Public Access}%
+  }
+  \strng{namehash}{BJBK+1}
+  \strng{fullhash}{BJBKMJHATPROACCT1}
+  \field{labelyear}{2016}
+  \field{sortinit}{B}
+  \field{booktitle}{Pacific Symposium on Biocomputing. Pacific Symposium on
+  Biocomputing}
+  \field{pages}{207}
+  \field{title}{Missing data imputation in the electronic health record using
+  deeply learned autoencoders}
+  \field{volume}{22}
+  \field{year}{2016}
+\endentry
+
+\entry{belkin2002laplacian}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Belkin}{B.}%
+     {Mikhail}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Niyogi}{N.}%
+     {Partha}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BMNP1}
+  \strng{fullhash}{BMNP1}
+  \field{labelyear}{2002}
+  \field{sortinit}{B}
+  \field{booktitle}{Advances in neural information processing systems}
+  \field{pages}{585\bibrangedash 591}
+  \field{title}{Laplacian eigenmaps and spectral techniques for embedding and
+  clustering}
+  \field{year}{2002}
+\endentry
+
+\entry{blondel2008fast}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Blondel}{B.}%
+     {Vincent~D}{V.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guillaume}{G.}%
+     {Jean-Loup}{J.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lambiotte}{L.}%
+     {Renaud}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lefebvre}{L.}%
+     {Etienne}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{BVD+1}
+  \strng{fullhash}{BVDGJLLRLE1}
+  \field{labelyear}{2008}
+  \field{sortinit}{B}
+  \field{number}{10}
+  \field{pages}{P10008}
+  \field{title}{Fast unfolding of communities in large networks}
+  \field{volume}{2008}
+  \field{journaltitle}{Journal of statistical mechanics: theory and experiment}
+  \field{year}{2008}
+\endentry
+
+\entry{chen2017prior}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Chen}{C.}%
+     {Weiqi}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Jing}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {He}{H.}%
+     {Shan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {BioMed Central}%
+  }
+  \strng{namehash}{CWLJHS1}
+  \strng{fullhash}{CWLJHS1}
+  \field{labelyear}{2017}
+  \field{sortinit}{C}
+  \field{number}{2}
+  \field{pages}{8}
+  \field{title}{Prior knowledge guided active modules identification: an
+  integrated multi-objective approach}
+  \field{volume}{11}
+  \field{journaltitle}{BMC systems biology}
+  \field{year}{2017}
+\endentry
+
+\entry{clauset2004finding}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Clauset}{C.}%
+     {Aaron}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Newman}{N.}%
+     {Mark~EJ}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moore}{M.}%
+     {Cristopher}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{CANMEMC1}
+  \strng{fullhash}{CANMEMC1}
+  \field{labelyear}{2004}
+  \field{sortinit}{C}
+  \field{number}{6}
+  \field{pages}{066111}
+  \field{title}{Finding community structure in very large networks}
+  \field{volume}{70}
+  \field{journaltitle}{Physical review E}
+  \field{year}{2004}
+\endentry
+
+\entry{de2013mathematical}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {De~Domenico}{D.~D.}%
+     {Manlio}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sol{\'e}-Ribalta}{S.-R.}%
+     {Albert}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cozzo}{C.}%
+     {Emanuele}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kivel{\"a}}{K.}%
+     {Mikko}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moreno}{M.}%
+     {Yamir}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Porter}{P.}%
+     {Mason~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {G{\'o}mez}{G.}%
+     {Sergio}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arenas}{A.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{DDM+1}
+  \strng{fullhash}{DDMSRACEKMMYPMAGSAA1}
+  \field{labelyear}{2013}
+  \field{sortinit}{D}
+  \field{number}{4}
+  \field{pages}{041022}
+  \field{title}{Mathematical formulation of multilayer networks}
+  \field{volume}{3}
+  \field{journaltitle}{Physical Review X}
+  \field{year}{2013}
+\endentry
+
+\entry{de2015identifying}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {De~Domenico}{D.~D.}%
+     {Manlio}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lancichinetti}{L.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arenas}{A.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosvall}{R.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{DDM+1}
+  \strng{fullhash}{DDMLAAARM1}
+  \field{labelyear}{2015}
+  \field{sortinit}{D}
+  \field{number}{1}
+  \field{pages}{011027}
+  \field{title}{Identifying modular flows on multilayer networks reveals highly
+  overlapping organization in interconnected systems}
+  \field{volume}{5}
+  \field{journaltitle}{Physical Review X}
+  \field{year}{2015}
+\endentry
+
+\entry{defferrard2016convolutional}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Defferrard}{D.}%
+     {Micha{\"e}l}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bresson}{B.}%
+     {Xavier}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vandergheynst}{V.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DMBXVP1}
+  \strng{fullhash}{DMBXVP1}
+  \field{labelyear}{2016}
+  \field{sortinit}{D}
+  \field{title}{Convolutional neural networks on graphs with fast localized
+  spectral filtering}
+  \field{journaltitle}{arXiv preprint arXiv:1606.09375}
+  \field{year}{2016}
+\endentry
+
+\entry{ding2004tutorial}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ding}{D.}%
+     {Chris}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DC1}
+  \strng{fullhash}{DC1}
+  \field{labelyear}{2004}
+  \field{sortinit}{D}
+  \field{booktitle}{Talk presented at ICML.}
+  \field{title}{A tutorial on spectral clustering}
+  \field{year}{2004}
+\endentry
+
+\entry{ding2001min}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Ding}{D.}%
+     {Chris~HQ}{C.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {He}{H.}%
+     {Xiaofeng}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zha}{Z.}%
+     {Hongyuan}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gu}{G.}%
+     {Ming}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Simon}{S.}%
+     {Horst~D}{H.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{DCH+1}
+  \strng{fullhash}{DCHHXZHGMSHD1}
+  \field{labelyear}{2001}
+  \field{sortinit}{D}
+  \field{booktitle}{Data Mining, 2001. ICDM 2001, Proceedings IEEE
+  International Conference on}
+  \field{pages}{107\bibrangedash 114}
+  \field{title}{A min-max cut algorithm for graph partitioning and data
+  clustering}
+  \field{year}{2001}
+\endentry
+
+\entry{dittenbach2000growing}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dittenbach}{D.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Merkl}{M.}%
+     {Dieter}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rauber}{R.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DMMDRA1}
+  \strng{fullhash}{DMMDRA1}
+  \field{labelyear}{2000}
+  \field{sortinit}{D}
+  \field{booktitle}{IJCNN (6)}
+  \field{pages}{15\bibrangedash 19}
+  \field{title}{The Growing Hierarchical Self-Organizing Map.}
+  \field{year}{2000}
+\endentry
+
+\entry{dittrich2008identifying}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Dittrich}{D.}%
+     {Marcus~T}{M.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Klau}{K.}%
+     {Gunnar~W}{G.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosenwald}{R.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dandekar}{D.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {M{\"u}ller}{M.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press}%
+  }
+  \strng{namehash}{DMT+1}
+  \strng{fullhash}{DMTKGWRADTMT1}
+  \field{labelyear}{2008}
+  \field{sortinit}{D}
+  \field{number}{13}
+  \field{pages}{i223\bibrangedash i231}
+  \field{title}{Identifying functional modules in protein--protein interaction
+  networks: an integrated exact approach}
+  \field{volume}{24}
+  \field{journaltitle}{Bioinformatics}
+  \field{year}{2008}
+\endentry
+
+\entry{donath1973lower}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Donath}{D.}%
+     {William~E}{W.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoffman}{H.}%
+     {Alan~J}{A.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IBM}%
+  }
+  \strng{namehash}{DWEHAJ1}
+  \strng{fullhash}{DWEHAJ1}
+  \field{labelyear}{1973}
+  \field{sortinit}{D}
+  \field{number}{5}
+  \field{pages}{420\bibrangedash 425}
+  \field{title}{Lower bounds for the partitioning of graphs}
+  \field{volume}{17}
+  \field{journaltitle}{IBM Journal of Research and Development}
+  \field{year}{1973}
+\endentry
+
+\entry{fortunato2007resolution}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Fortunato}{F.}%
+     {Santo}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barthelemy}{B.}%
+     {Marc}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{FSBM1}
+  \strng{fullhash}{FSBM1}
+  \field{labelyear}{2007}
+  \field{sortinit}{F}
+  \field{number}{1}
+  \field{pages}{36\bibrangedash 41}
+  \field{title}{Resolution limit in community detection}
+  \field{volume}{104}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2007}
+\endentry
+
+\entry{gibert2012graph}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Gibert}{G.}%
+     {Jaume}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Valveny}{V.}%
+     {Ernest}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bunke}{B.}%
+     {Horst}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{GJVEBH1}
+  \strng{fullhash}{GJVEBH1}
+  \field{labelyear}{2012}
+  \field{sortinit}{G}
+  \field{number}{9}
+  \field{pages}{3072\bibrangedash 3083}
+  \field{title}{Graph embedding in vector spaces by node attribute statistics}
+  \field{volume}{45}
+  \field{journaltitle}{Pattern Recognition}
+  \field{year}{2012}
+\endentry
+
+\entry{girvan2002community}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Girvan}{G.}%
+     {Michelle}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Newman}{N.}%
+     {Mark~EJ}{M.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{GMNME1}
+  \strng{fullhash}{GMNME1}
+  \field{labelyear}{2002}
+  \field{sortinit}{G}
+  \field{number}{12}
+  \field{pages}{7821\bibrangedash 7826}
+  \field{title}{Community structure in social and biological networks}
+  \field{volume}{99}
+  \field{journaltitle}{Proceedings of the national academy of sciences}
+  \field{year}{2002}
+\endentry
+
+\entry{grover2016node2vec}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Grover}{G.}%
+     {Aditya}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leskovec}{L.}%
+     {Jure}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{GALJ1}
+  \strng{fullhash}{GALJ1}
+  \field{labelyear}{2016}
+  \field{sortinit}{G}
+  \field{booktitle}{Proceedings of the 22nd ACM SIGKDD international conference
+  on Knowledge discovery and data mining}
+  \field{pages}{855\bibrangedash 864}
+  \field{title}{node2vec: Scalable feature learning for networks}
+  \field{year}{2016}
+\endentry
+
+\entry{hardoon2004canonical}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Hardoon}{H.}%
+     {David~R}{D.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Szedmak}{S.}%
+     {Sandor}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shawe-Taylor}{S.-T.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT Press}%
+  }
+  \strng{namehash}{HDRSSSTJ1}
+  \strng{fullhash}{HDRSSSTJ1}
+  \field{labelyear}{2004}
+  \field{sortinit}{H}
+  \field{number}{12}
+  \field{pages}{2639\bibrangedash 2664}
+  \field{title}{Canonical correlation analysis: An overview with application to
+  learning methods}
+  \field{volume}{16}
+  \field{journaltitle}{Neural computation}
+  \field{year}{2004}
+\endentry
+
+\entry{he2016cooperative}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {He}{H.}%
+     {Shan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jia}{J.}%
+     {Guanbo}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhu}{Z.}%
+     {Zexuan}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tennant}{T.}%
+     {Daniel~A}{D.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huang}{H.}%
+     {Qiang}{Q.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tang}{T.}%
+     {Ke}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Jing}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Musolesi}{M.}%
+     {Mirco}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Heath}{H.}%
+     {John~K}{J.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yao}{Y.}%
+     {Xin}{X.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{HS+1}
+  \strng{fullhash}{HSJGZZTDAHQTKLJMMHJKYX1}
+  \field{labelyear}{2016}
+  \field{sortinit}{H}
+  \field{number}{6}
+  \field{pages}{874\bibrangedash 891}
+  \field{title}{Cooperative co-evolutionary module identification with
+  application to cancer disease module discovery}
+  \field{volume}{20}
+  \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
+  \field{year}{2016}
+\endentry
+
+\entry{ideker2002discovering}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Ideker}{I.}%
+     {Trey}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ozier}{O.}%
+     {Owen}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schwikowski}{S.}%
+     {Benno}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Siegel}{S.}%
+     {Andrew~F}{A.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press}%
+  }
+  \strng{namehash}{IT+1}
+  \strng{fullhash}{ITOOSBSAF1}
+  \field{labelyear}{2002}
+  \field{sortinit}{I}
+  \field{number}{suppl\_1}
+  \field{pages}{S233\bibrangedash S240}
+  \field{title}{Discovering regulatory and signalling circuits in molecular
+  interaction networks}
+  \field{volume}{18}
+  \field{journaltitle}{Bioinformatics}
+  \field{year}{2002}
+\endentry
+
+\entry{kernighan1970efficient}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kernighan}{K.}%
+     {Brian~W}{B.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Shen}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{KBWLS1}
+  \strng{fullhash}{KBWLS1}
+  \field{labelyear}{1970}
+  \field{sortinit}{K}
+  \field{number}{2}
+  \field{pages}{291\bibrangedash 307}
+  \field{title}{An efficient heuristic procedure for partitioning graphs}
+  \field{volume}{49}
+  \field{journaltitle}{Bell system technical journal}
+  \field{year}{1970}
+\endentry
+
+\entry{kipf2016semi}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kipf}{K.}%
+     {Thomas~N}{T.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Welling}{W.}%
+     {Max}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KTNWM1}
+  \strng{fullhash}{KTNWM1}
+  \field{labelyear}{2016}
+  \field{sortinit}{K}
+  \field{title}{Semi-supervised classification with graph convolutional
+  networks}
+  \field{journaltitle}{arXiv preprint arXiv:1609.02907}
+  \field{year}{2016}
+\endentry
+
+\entry{kivela2014multilayer}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Kivel{\"a}}{K.}%
+     {Mikko}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arenas}{A.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barthelemy}{B.}%
+     {Marc}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gleeson}{G.}%
+     {James~P}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moreno}{M.}%
+     {Yamir}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Porter}{P.}%
+     {Mason~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press}%
+  }
+  \strng{namehash}{KM+1}
+  \strng{fullhash}{KMAABMGJPMYPMA1}
+  \field{labelyear}{2014}
+  \field{sortinit}{K}
+  \field{number}{3}
+  \field{pages}{203\bibrangedash 271}
+  \field{title}{Multilayer networks}
+  \field{volume}{2}
+  \field{journaltitle}{Journal of complex networks}
+  \field{year}{2014}
+\endentry
+
+\entry{Klammer2010}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Klammer}{K.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Godl}{G.}%
+     {Klaus}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tebbe}{T.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schaab}{S.}%
+     {Christoph}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KM+2}
+  \strng{fullhash}{KMGKTASC1}
+  \field{labelyear}{2010}
+  \field{sortinit}{K}
+  \field{number}{1}
+  \field{pages}{351}
+  \field{title}{Identifying differentially regulated subnetworks from
+  phosphoproteomic data}
+  \field{volume}{11}
+  \field{journaltitle}{BMC Bioinformatics}
+  \field{year}{2010}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{krioukov2009curvature}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Krioukov}{K.}%
+     {Dmitri}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Papadopoulos}{P.}%
+     {Fragkiskos}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vahdat}{V.}%
+     {Amin}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bogu{\~n}{\'a}}{B.}%
+     {Mari{\'a}n}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{KD+1}
+  \strng{fullhash}{KDPFVABM1}
+  \field{labelyear}{2009}
+  \field{sortinit}{K}
+  \field{number}{3}
+  \field{pages}{035101}
+  \field{title}{Curvature and temperature of complex networks}
+  \field{volume}{80}
+  \field{journaltitle}{Physical Review E}
+  \field{year}{2009}
+\endentry
+
+\entry{krioukov2010hyperbolic}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Krioukov}{K.}%
+     {Dmitri}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Papadopoulos}{P.}%
+     {Fragkiskos}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kitsak}{K.}%
+     {Maksim}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vahdat}{V.}%
+     {Amin}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bogun{\'a}}{B.}%
+     {Mari{\'a}n}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{KD+1}
+  \strng{fullhash}{KDPFKMVABM1}
+  \field{labelyear}{2010}
+  \field{sortinit}{K}
+  \field{number}{3}
+  \field{pages}{036106}
+  \field{title}{Hyperbolic geometry of complex networks}
+  \field{volume}{82}
+  \field{journaltitle}{Physical Review E}
+  \field{year}{2010}
+\endentry
+
+\entry{ISI:000293452500017}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Lambiotte}{L.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sinatra}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Delvenne}{D.}%
+     {J-C}{J.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Evans}{E.}%
+     {T.~S.}{T.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barahona}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Latora}{L.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MER PHYSICAL SOC}%
+  }
+  \strng{namehash}{LR+1}
+  \strng{fullhash}{LRSRDJCETSBMLV1}
+  \field{labelyear}{2011}
+  \field{sortinit}{L}
+  \field{title}{Flow graphs: Interweaving dynamics and structure}
+  \field{volume}{84}
+  \list{location}{1}{%
+    {ONE PHYSICS ELLIPSE, COLLEGE PK, MD 20740-3844 USA}%
+  }
+  \field{journaltitle}{PHYSICAL REVIEW E}
+  \field{year}{2011}
+\endentry
+
+\entry{lancichinetti2009community}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Lancichinetti}{L.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fortunato}{F.}%
+     {Santo}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{LAFS1}
+  \strng{fullhash}{LAFS1}
+  \field{labelyear}{2009}
+  \field{sortinit}{L}
+  \field{number}{5}
+  \field{pages}{056117}
+  \field{title}{Community detection algorithms: a comparative analysis}
+  \field{volume}{80}
+  \field{journaltitle}{Physical review E}
+  \field{year}{2009}
+\endentry
+
+\entry{lancichinetti2009detecting}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Lancichinetti}{L.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fortunato}{F.}%
+     {Santo}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kert{\'e}sz}{K.}%
+     {J{\'a}nos}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{LAFSKJ1}
+  \strng{fullhash}{LAFSKJ1}
+  \field{labelyear}{2009}
+  \field{sortinit}{L}
+  \field{number}{3}
+  \field{pages}{033015}
+  \field{title}{Detecting the overlapping and hierarchical community structure
+  in complex networks}
+  \field{volume}{11}
+  \field{journaltitle}{New Journal of Physics}
+  \field{year}{2009}
+\endentry
+
+\entry{li2017active}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Li}{L.}%
+     {Dong}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pan}{P.}%
+     {Zhisong}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hu}{H.}%
+     {Guyu}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhu}{Z.}%
+     {Zexuan}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {He}{H.}%
+     {Shan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {BioMed Central}%
+  }
+  \strng{namehash}{LD+1}
+  \strng{fullhash}{LDPZHGZZHS1}
+  \field{labelyear}{2017}
+  \field{extrayear}{1}
+  \field{sortinit}{L}
+  \field{number}{2}
+  \field{pages}{209}
+  \field{title}{Active module identification in intracellular networks using a
+  memetic algorithm with a new binary decoding scheme}
+  \field{volume}{18}
+  \field{journaltitle}{BMC genomics}
+  \field{year}{2017}
+\endentry
+
+\entry{li2017attributed}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Li}{L.}%
+     {Jundong}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dani}{D.}%
+     {Harsh}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hu}{H.}%
+     {Xia}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tang}{T.}%
+     {Jiliang}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {Yi}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Huan}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LJ+1}
+  \strng{fullhash}{LJDHHXTJCYLH1}
+  \field{labelyear}{2017}
+  \field{extrayear}{2}
+  \field{sortinit}{L}
+  \field{title}{Attributed Network Embedding for Learning in a Dynamic
+  Environment}
+  \field{journaltitle}{arXiv preprint arXiv:1706.01860}
+  \field{year}{2017}
+\endentry
+
+\entry{liao2017attributed}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Liao}{L.}%
+     {Lizi}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {He}{H.}%
+     {Xiangnan}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Hanwang}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chua}{C.}%
+     {Tat-Seng}{T.-S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LL+1}
+  \strng{fullhash}{LLHXZHCTS1}
+  \field{labelyear}{2017}
+  \field{sortinit}{L}
+  \field{title}{Attributed Social Network Embedding}
+  \field{journaltitle}{arXiv preprint arXiv:1705.04969}
+  \field{year}{2017}
+\endentry
+
+\entry{mazumder2010spectral}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Mazumder}{M.}%
+     {Rahul}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hastie}{H.}%
+     {Trevor}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tibshirani}{T.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MRHTTR1}
+  \strng{fullhash}{MRHTTR1}
+  \field{labelyear}{2010}
+  \field{sortinit}{M}
+  \field{number}{Aug}
+  \field{pages}{2287\bibrangedash 2322}
+  \field{title}{Spectral regularization algorithms for learning large
+  incomplete matrices}
+  \field{volume}{11}
+  \field{journaltitle}{Journal of machine learning research}
+  \field{year}{2010}
+\endentry
+
+\entry{mikolov2013distributed}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Mikolov}{M.}%
+     {Tomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sutskever}{S.}%
+     {Ilya}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Kai}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Corrado}{C.}%
+     {Greg~S}{G.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dean}{D.}%
+     {Jeff}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MT+1}
+  \strng{fullhash}{MTSICKCGSDJ1}
+  \field{labelyear}{2013}
+  \field{extrayear}{1}
+  \field{sortinit}{M}
+  \field{booktitle}{Advances in neural information processing systems}
+  \field{pages}{3111\bibrangedash 3119}
+  \field{title}{Distributed representations of words and phrases and their
+  compositionality}
+  \field{year}{2013}
+\endentry
+
+\entry{mikolov2013efficient}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Mikolov}{M.}%
+     {Tomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Kai}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Corrado}{C.}%
+     {Greg}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dean}{D.}%
+     {Jeffrey}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MT+1}
+  \strng{fullhash}{MTCKCGDJ1}
+  \field{labelyear}{2013}
+  \field{extrayear}{2}
+  \field{sortinit}{M}
+  \field{title}{Efficient estimation of word representations in vector space}
+  \field{journaltitle}{arXiv preprint arXiv:1301.3781}
+  \field{year}{2013}
+\endentry
+
+\entry{mitra2013integrative}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Mitra}{M.}%
+     {Koyel}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carvunis}{C.}%
+     {Anne-Ruxandra}{A.-R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramesh}{R.}%
+     {Sanath~Kumar}{S.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ideker}{I.}%
+     {Trey}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {NIH Public Access}%
+  }
+  \strng{namehash}{MK+1}
+  \strng{fullhash}{MKCARRSKIT1}
+  \field{labelyear}{2013}
+  \field{sortinit}{M}
+  \field{number}{10}
+  \field{pages}{719}
+  \field{title}{Integrative approaches for finding modular structure in
+  biological networks}
+  \field{volume}{14}
+  \field{journaltitle}{Nature reviews. Genetics}
+  \field{year}{2013}
+\endentry
+
+\entry{mucha2010community}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Mucha}{M.}%
+     {Peter~J}{P.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Richardson}{R.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Macon}{M.}%
+     {Kevin}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Porter}{P.}%
+     {Mason~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Onnela}{O.}%
+     {Jukka-Pekka}{J.-P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Association for the Advancement of Science}%
+  }
+  \strng{namehash}{MPJ+1}
+  \strng{fullhash}{MPJRTMKPMAOJP1}
+  \field{labelyear}{2010}
+  \field{sortinit}{M}
+  \field{number}{5980}
+  \field{pages}{876\bibrangedash 878}
+  \field{title}{Community structure in time-dependent, multiscale, and
+  multiplex networks}
+  \field{volume}{328}
+  \field{journaltitle}{science}
+  \field{year}{2010}
+\endentry
+
+\entry{nacu2007gene}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Nacu}{N.}%
+     {{\c{S}}erban}{{\c{S}}.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Critchley-Thorne}{C.-T.}%
+     {Rebecca}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holmes}{H.}%
+     {Susan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press}%
+  }
+  \strng{namehash}{NS+1}
+  \strng{fullhash}{NSCTRLPHS1}
+  \field{labelyear}{2007}
+  \field{sortinit}{N}
+  \field{number}{7}
+  \field{pages}{850\bibrangedash 858}
+  \field{title}{Gene expression network analysis and applications to
+  immunology}
+  \field{volume}{23}
+  \field{journaltitle}{Bioinformatics}
+  \field{year}{2007}
+\endentry
+
+\entry{ng2002spectral}{article}{}
+  \true{moreauthor}
+  \name{author}{3}{}{%
+    {{}%
+     {Ng}{N.}%
+     {Andrew~Y}{A.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordan}{J.}%
+     {Michael~I}{M.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weiss}{W.}%
+     {Yair}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT; 1998}%
+  }
+  \strng{namehash}{NAYJMIWY+1}
+  \strng{fullhash}{NAYJMIWY+1}
+  \field{labelyear}{2002}
+  \field{sortinit}{N}
+  \field{pages}{849\bibrangedash 856}
+  \field{title}{On spectral clustering: Analysis and an algorithm}
+  \field{volume}{2}
+  \field{journaltitle}{Advances in neural information processing systems}
+  \field{year}{2002}
+\endentry
+
+\entry{niepert2016learning}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Niepert}{N.}%
+     {Mathias}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ahmed}{A.}%
+     {Mohamed}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kutzkov}{K.}%
+     {Konstantin}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NMAMKK1}
+  \strng{fullhash}{NMAMKK1}
+  \field{labelyear}{2016}
+  \field{sortinit}{N}
+  \field{booktitle}{International Conference on Machine Learning}
+  \field{pages}{2014\bibrangedash 2023}
+  \field{title}{Learning convolutional neural networks for graphs}
+  \field{year}{2016}
+\endentry
+
+\entry{palla2005uncovering}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Palla}{P.}%
+     {Gergely}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Der{\'e}nyi}{D.}%
+     {Imre}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Farkas}{F.}%
+     {Ill{\'e}s}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vicsek}{V.}%
+     {Tam{\'a}s}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{PG+1}
+  \strng{fullhash}{PGDIFIVT1}
+  \field{labelyear}{2005}
+  \field{sortinit}{P}
+  \field{number}{7043}
+  \field{pages}{814\bibrangedash 818}
+  \field{title}{Uncovering the overlapping community structure of complex
+  networks in nature and society}
+  \field{volume}{435}
+  \field{journaltitle}{Nature}
+  \field{year}{2005}
+\endentry
+
+\entry{palomo2016growing}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Palomo}{P.}%
+     {Esteban~J}{E.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {L{\'o}pez-Rubio}{L.-R.}%
+     {Ezequiel}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{PEJLRE1}
+  \strng{fullhash}{PEJLRE1}
+  \field{labelyear}{2016}
+  \field{sortinit}{P}
+  \field{title}{The growing hierarchical neural gas self-organizing neural
+  network}
+  \field{journaltitle}{IEEE transactions on neural networks and learning
+  systems}
+  \field{year}{2016}
+\endentry
+
+\entry{papadopoulos2015networkgeo}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Papadopoulos}{P.}%
+     {Fragkiskos}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aldecoa}{A.}%
+     {Rodrigo}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krioukov}{K.}%
+     {Dmitri}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{PFARKD1}
+  \strng{fullhash}{PFARKD1}
+  \field{labelyear}{2015}
+  \field{sortinit}{P}
+  \field{number}{2}
+  \field{pages}{022807}
+  \field{title}{Network geometry inference using common neighbors}
+  \field{volume}{92}
+  \field{journaltitle}{Physical Review E}
+  \field{year}{2015}
+\endentry
+
+\entry{papadopoulos2015network}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Papadopoulos}{P.}%
+     {Fragkiskos}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Psomas}{P.}%
+     {Constantinos}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krioukov}{K.}%
+     {Dmitri}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE Press}%
+  }
+  \strng{namehash}{PFPCKD1}
+  \strng{fullhash}{PFPCKD1}
+  \field{labelyear}{2015}
+  \field{sortinit}{P}
+  \field{number}{1}
+  \field{pages}{198\bibrangedash 211}
+  \field{title}{Network mapping by replaying hyperbolic growth}
+  \field{volume}{23}
+  \field{journaltitle}{IEEE/ACM Transactions on Networking (TON)}
+  \field{year}{2015}
+\endentry
+
+\entry{papadopoulos2010greedy}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Papadopoulos}{P.}%
+     {Fragkiskos}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krioukov}{K.}%
+     {Dmitri}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bogu{\~n}{\'a}}{B.}%
+     {Mari{\'a}n}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vahdat}{V.}%
+     {Amin}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{PF+1}
+  \strng{fullhash}{PFKDBMVA1}
+  \field{labelyear}{2010}
+  \field{sortinit}{P}
+  \field{booktitle}{INFOCOM, 2010 Proceedings IEEE}
+  \field{pages}{1\bibrangedash 9}
+  \field{title}{Greedy forwarding in dynamic scale-free networks embedded in
+  hyperbolic metric spaces}
+  \field{year}{2010}
+\endentry
+
+\entry{papadopoulos2011popularity}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Papadopoulos}{P.}%
+     {Fragkiskos}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kitsak}{K.}%
+     {Maksim}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Serrano}{S.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bogun{\'a}}{B.}%
+     {Mari{\'a}n}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krioukov}{K.}%
+     {Dmitri}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PF+1}
+  \strng{fullhash}{PFKMSMBMKD1}
+  \field{labelyear}{2011}
+  \field{sortinit}{P}
+  \field{title}{Popularity versus similarity in growing networks}
+  \field{journaltitle}{arXiv preprint arXiv:1106.0286}
+  \field{year}{2011}
+\endentry
+
+\entry{perozzi2014deepwalk}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Perozzi}{P.}%
+     {Bryan}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Al-Rfou}{A.-R.}%
+     {Rami}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Skiena}{S.}%
+     {Steven}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{PBARRSS1}
+  \strng{fullhash}{PBARRSS1}
+  \field{labelyear}{2014}
+  \field{sortinit}{P}
+  \field{booktitle}{Proceedings of the 20th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}
+  \field{pages}{701\bibrangedash 710}
+  \field{title}{Deepwalk: Online learning of social representations}
+  \field{year}{2014}
+\endentry
+
+\entry{pons2011post}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Pons}{P.}%
+     {Pascal}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Latapy}{L.}%
+     {Matthieu}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{PPLM1}
+  \strng{fullhash}{PPLM1}
+  \field{labelyear}{2011}
+  \field{sortinit}{P}
+  \field{number}{8}
+  \field{pages}{892\bibrangedash 900}
+  \field{title}{Post-processing hierarchical community structures: Quality
+  improvements and multi-scale view}
+  \field{volume}{412}
+  \field{journaltitle}{Theoretical Computer Science}
+  \field{year}{2011}
+\endentry
+
+\entry{psorakis2011overlapping}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Psorakis}{P.}%
+     {Ioannis}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roberts}{R.}%
+     {Stephen}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ebden}{E.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sheldon}{S.}%
+     {Ben}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{PI+1}
+  \strng{fullhash}{PIRSEMSB1}
+  \field{labelyear}{2011}
+  \field{sortinit}{P}
+  \field{number}{6}
+  \field{pages}{066114}
+  \field{title}{Overlapping community detection using bayesian non-negative
+  matrix factorization}
+  \field{volume}{83}
+  \field{journaltitle}{Physical Review E}
+  \field{year}{2011}
+\endentry
+
+\entry{radicchi2004defining}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Radicchi}{R.}%
+     {Filippo}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Castellano}{C.}%
+     {Claudio}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cecconi}{C.}%
+     {Federico}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loreto}{L.}%
+     {Vittorio}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parisi}{P.}%
+     {Domenico}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{RF+1}
+  \strng{fullhash}{RFCCCFLVPD1}
+  \field{labelyear}{2004}
+  \field{sortinit}{R}
+  \field{number}{9}
+  \field{pages}{2658\bibrangedash 2663}
+  \field{title}{Defining and identifying communities in networks}
+  \field{volume}{101}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{year}{2004}
+\endentry
+
+\entry{rosvall2007information}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rosvall}{R.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bergstrom}{B.}%
+     {Carl~T}{C.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{RMBCT1}
+  \strng{fullhash}{RMBCT1}
+  \field{labelyear}{2007}
+  \field{sortinit}{R}
+  \field{number}{18}
+  \field{pages}{7327\bibrangedash 7331}
+  \field{title}{An information-theoretic framework for resolving community
+  structure in complex networks}
+  \field{volume}{104}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2007}
+\endentry
+
+\entry{rosvall2008maps}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rosvall}{R.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bergstrom}{B.}%
+     {Carl~T}{C.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{RMBCT1}
+  \strng{fullhash}{RMBCT1}
+  \field{labelyear}{2008}
+  \field{sortinit}{R}
+  \field{number}{4}
+  \field{pages}{1118\bibrangedash 1123}
+  \field{title}{Maps of random walks on complex networks reveal community
+  structure}
+  \field{volume}{105}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2008}
+\endentry
+
+\entry{shen2009detect}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Shen}{S.}%
+     {Huawei}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {Xueqi}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cai}{C.}%
+     {Kai}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hu}{H.}%
+     {Mao-Bin}{M.-B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{SH+1}
+  \strng{fullhash}{SHCXCKHMB1}
+  \field{labelyear}{2009}
+  \field{sortinit}{S}
+  \field{number}{8}
+  \field{pages}{1706\bibrangedash 1712}
+  \field{title}{Detect overlapping and hierarchical community structure in
+  networks}
+  \field{volume}{388}
+  \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+  \field{year}{2009}
+\endentry
+
+\entry{shi2000normalized}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Shi}{S.}%
+     {Jianbo}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Malik}{M.}%
+     {Jitendra}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{SJMJ1}
+  \strng{fullhash}{SJMJ1}
+  \field{labelyear}{2000}
+  \field{sortinit}{S}
+  \field{number}{8}
+  \field{pages}{888\bibrangedash 905}
+  \field{title}{Normalized cuts and image segmentation}
+  \field{volume}{22}
+  \field{journaltitle}{IEEE Transactions on pattern analysis and machine
+  intelligence}
+  \field{year}{2000}
+\endentry
+
+\entry{tang2015line}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Tang}{T.}%
+     {Jian}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Qu}{Q.}%
+     {Meng}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Mingzhe}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Ming}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yan}{Y.}%
+     {Jun}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mei}{M.}%
+     {Qiaozhu}{Q.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {International World Wide Web Conferences Steering Committee}%
+  }
+  \strng{namehash}{TJ+1}
+  \strng{fullhash}{TJQMWMZMYJMQ1}
+  \field{labelyear}{2015}
+  \field{sortinit}{T}
+  \field{booktitle}{Proceedings of the 24th International Conference on World
+  Wide Web}
+  \field{pages}{1067\bibrangedash 1077}
+  \field{title}{Line: Large-scale information network embedding}
+  \field{year}{2015}
+\endentry
+
+\entry{tenenbaum2000global}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Tenenbaum}{T.}%
+     {Joshua~B}{J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Silva}{D.~S.}%
+     {Vin}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Langford}{L.}%
+     {John~C}{J.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Association for the Advancement of Science}%
+  }
+  \strng{namehash}{TJBDSVLJC1}
+  \strng{fullhash}{TJBDSVLJC1}
+  \field{labelyear}{2000}
+  \field{sortinit}{T}
+  \field{number}{5500}
+  \field{pages}{2319\bibrangedash 2323}
+  \field{title}{A global geometric framework for nonlinear dimensionality
+  reduction}
+  \field{volume}{290}
+  \field{journaltitle}{science}
+  \field{year}{2000}
+\endentry
+
+\entry{thomas2016machine}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Thomas}{T.}%
+     {Josephine~Maria}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muscoloni}{M.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ciucci}{C.}%
+     {Sara}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bianconi}{B.}%
+     {Ginestra}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cannistraci}{C.}%
+     {Carlo~Vittorio}{C.~V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TJM+1}
+  \strng{fullhash}{TJMMACSBGCCV1}
+  \field{labelyear}{2016}
+  \field{sortinit}{T}
+  \field{title}{Machine learning meets network science: dimensionality
+  reduction for fast and efficient embedding of networks in the hyperbolic
+  space}
+  \field{journaltitle}{arXiv preprint arXiv:1602.06522}
+  \field{year}{2016}
+\endentry
+
+\entry{van2001graph}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Van~Dongen}{V.~D.}%
+     {Stijn~Marinus}{S.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VDSM1}
+  \strng{fullhash}{VDSM1}
+  \field{labelyear}{2001}
+  \field{sortinit}{V}
+  \field{title}{Graph clustering by flow simulation}
+  \field{type}{phdthesis}
+  \field{year}{2001}
+\endentry
+
+\entry{vandin2011algorithms}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Vandin}{V.}%
+     {Fabio}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Upfal}{U.}%
+     {Eli}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raphael}{R.}%
+     {Benjamin~J}{B.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Mary Ann Liebert, Inc. 140 Huguenot Street, 3rd Floor New Rochelle, NY
+  10801 USA}%
+  }
+  \strng{namehash}{VFUERBJ1}
+  \strng{fullhash}{VFUERBJ1}
+  \field{labelyear}{2011}
+  \field{sortinit}{V}
+  \field{number}{3}
+  \field{pages}{507\bibrangedash 522}
+  \field{title}{Algorithms for detecting significantly mutated pathways in
+  cancer}
+  \field{volume}{18}
+  \field{journaltitle}{Journal of Computational Biology}
+  \field{year}{2011}
+\endentry
+
+\entry{vogel2012insights}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Vogel}{V.}%
+     {Christine}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marcotte}{M.}%
+     {Edward~M}{E.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {NIH Public Access}%
+  }
+  \strng{namehash}{VCMEM1}
+  \strng{fullhash}{VCMEM1}
+  \field{labelyear}{2012}
+  \field{sortinit}{V}
+  \field{number}{4}
+  \field{pages}{227}
+  \field{title}{Insights into the regulation of protein abundance from
+  proteomic and transcriptomic analyses}
+  \field{volume}{13}
+  \field{journaltitle}{Nature reviews. Genetics}
+  \field{year}{2012}
+\endentry
+
+\entry{von2007tutorial}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Von~Luxburg}{V.~L.}%
+     {Ulrike}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{VLU1}
+  \strng{fullhash}{VLU1}
+  \field{labelyear}{2007}
+  \field{sortinit}{V}
+  \field{number}{4}
+  \field{pages}{395\bibrangedash 416}
+  \field{title}{A tutorial on spectral clustering}
+  \field{volume}{17}
+  \field{journaltitle}{Statistics and computing}
+  \field{year}{2007}
+\endentry
+
+\entry{watts1998collective}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Watts}{W.}%
+     {Duncan~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strogatz}{S.}%
+     {Steven~H}{S.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{WDJSSH1}
+  \strng{fullhash}{WDJSSH1}
+  \field{labelyear}{1998}
+  \field{sortinit}{W}
+  \field{number}{6684}
+  \field{pages}{440\bibrangedash 442}
+  \field{title}{Collective dynamics of ‘small-world’networks}
+  \field{volume}{393}
+  \field{journaltitle}{nature}
+  \field{year}{1998}
+\endentry
+
+\entry{wei1991ratio}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Wei}{W.}%
+     {Y-C}{Y.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {C-K}{C.-K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{WYCCCK1}
+  \strng{fullhash}{WYCCCK1}
+  \field{labelyear}{1991}
+  \field{sortinit}{W}
+  \field{number}{7}
+  \field{pages}{911\bibrangedash 921}
+  \field{title}{Ratio cut partitioning for hierarchical designs}
+  \field{volume}{10}
+  \field{journaltitle}{IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems}
+  \field{year}{1991}
+\endentry
+
+\entry{yamakawa2006self}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Yamakawa}{Y.}%
+     {Takeshi}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Horio}{H.}%
+     {Keiichi}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoshino}{H.}%
+     {Masaharu}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{YTHKHM1}
+  \strng{fullhash}{YTHKHM1}
+  \field{labelyear}{2006}
+  \field{sortinit}{Y}
+  \field{booktitle}{International Conference on Neural Information Processing}
+  \field{pages}{907\bibrangedash 914}
+  \field{title}{Self-organizing map with input data represented as graph}
+  \field{year}{2006}
+\endentry
+
+\entry{zhang2016integrated}{article}{}
+  \true{moreauthor}
+  \name{author}{10}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {Hui}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Tao}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Zhen}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Payne}{P.}%
+     {Samuel~H}{S.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Bai}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McDermott}{M.}%
+     {Jason~E}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhou}{Z.}%
+     {Jian-Ying}{J.-Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Petyuk}{P.}%
+     {Vladislav~A}{V.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Li}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ray}{R.}%
+     {Debjit}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{ZH+1}
+  \strng{fullhash}{ZHLTZZPSHZBMJEZJYPVACLRD+1}
+  \field{labelyear}{2016}
+  \field{sortinit}{Z}
+  \field{number}{3}
+  \field{pages}{755\bibrangedash 765}
+  \field{title}{Integrated proteogenomic characterization of human high-grade
+  serous ovarian cancer}
+  \field{volume}{166}
+  \field{journaltitle}{Cell}
+  \field{year}{2016}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
